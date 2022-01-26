@@ -378,7 +378,7 @@ const experience = {
           title: "Full Stack Developer (Intern)",
           company: "AppDeployer",
           company_url: "https://valora-infotech.business.site/",
-          logo_path: "nith.png",
+          logo_path: "appdeployer.png",
           duration: "jan-2022 - Present",
           location: "Online",
           description:
