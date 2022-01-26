@@ -365,7 +365,8 @@ const degrees = {
       alt_name: "VBPS",
       duration: "2016 - 2019",
       descriptions: [
-        "⚡ I have completed my High school and Intermediate from this School."
+        "⚡ I have completed my High school and Intermediate from this School.",
+        "⚡ I have participated many inter school compition based on science and research.",
       ],
       website_link: "http://vbpsnoida.com/",
     },
