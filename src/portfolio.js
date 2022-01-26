@@ -18,7 +18,7 @@ const greeting = {
     "Full Stack Developer, Machine Learning Enthusiast 🔥. Always in my learning phase.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+  mail: "mailto:oriyanshu011109@gmail.com",
 };
 
 const socialMediaLinks = {
@@ -384,7 +384,6 @@ const experience = {
           description:
           `Working as a Front-end Developer at AppDeployer is a great experience to learn new technologies and work on real world projects. Curently developing Admin Dashboard.
           `,
-           
           color: "#0071C5",
         },
 
