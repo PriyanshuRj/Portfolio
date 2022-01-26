@@ -186,11 +186,14 @@
 @media (min-width: 48em) {
   .header li {
     float: left;
+
+    
   }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
   .header .menu {
     max-height: none;
@@ -208,6 +211,7 @@
     text-decoration: none;
     margin-top: 15px;
     line-height: normal;
+    
   }
 
   .header {
@@ -217,6 +221,7 @@
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
-    font-size: 12px;
+    font-size: 12px;    margin:0px;
+
   }
 }

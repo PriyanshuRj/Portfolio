@@ -178,34 +178,64 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "ML",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#FF9900",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
           style: {
-            color: "#FFCA28",
+            color: "#E90189",
+          },
+        },
+        {
+          skillName: "Numpy",
+          fontAwesomeClassname: "simple-icons:numpy",
+          style: {
+            color: "#4CACD1",
           },
         },
 
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "simple-icons:tensorflow",
           style: {
-            color: "#47A248",
+            color: "#EBB430",
+          },
+        },
+        {
+          skillName:"Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            color: "#D10001",
           },
         },
 
+
         {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
+          skillName: "PyTorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
           style: {
-            color: "#5b77ef",
+            color: "#EE4D2D",
           },
+        },
+        {
+          skillName: "OpenCV",
+          fontAwesomeClassname: "simple-icons:opencv",
+          style: {
+            color: "#8ADB67",
+          },
+        },
+        {
+          skillName: "Scikit-learn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+          style: {
+            color: "#F99A37",
+          },
+        
         },
       ],
     },
@@ -213,8 +243,8 @@ const skills = {
       title: "Hosting WebSites",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple Machine Learning and Deep Learning Models",
-        "⚡ Experience hosting and Developing Models",
+        "⚡ Experience working on multiple hosting platform",
+        "⚡ Experience hosting and Developing webpages and projects",
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
@@ -258,6 +288,69 @@ const skills = {
   
       ],
     },
+    {
+      title: "Designing and Animation",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on Poster designing and video editing",
+        "⚡ Experience creting digital content for multiple platform and also for web pages",
+        "⚡ Experience with multiple Designing softwares",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Adobe After Effects",
+          fontAwesomeClassname: "simple-icons:adobeaftereffects",
+          style: {
+            color: "#9898FF",
+          },
+        },
+        {
+          skillName: "Adobe After Premire Pro",
+          fontAwesomeClassname: "simple-icons:adobepremierepro",
+          style: {
+            color: "#EA76FE",
+          },
+        },
+        {
+          skillName: "Adobe Illustrator",
+          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          style: {
+            color: "#FE9B00",
+          },
+        },
+        {
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
+          style: {
+            color: "#01ABFF",
+          },
+        },
+        
+
+        {
+          skillName: "Adobe XD",
+          fontAwesomeClassname: "simple-icons:adobexd",
+          style: {
+            color: "#FF61F6",
+          },
+        },
+
+        {
+          skillName: "Adobe Audition",
+          fontAwesomeClassname: "simple-icons:adobeaudition",
+          style: {
+            color: "#5b77ef",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#5b77ef",
+          },
+        },
+      ],
+    },
   ],
 };
 
@@ -279,8 +372,8 @@ const degrees = {
     },
     {
       title: "Vishwa Bharti Public School",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "nith.png",
+      subtitle: "High School and Intermediate",
+      logo_path: "vbps.png",
       alt_name: "VBPS",
       duration: "2016 - 2019",
       descriptions: [

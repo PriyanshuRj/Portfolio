@@ -18,9 +18,9 @@ function ExperienceAccordion(props) {
                 title={section["title"]}
                 key={section["title"]}
               >
-                {section["experiences"].map((experience) => {
+                {section["experiences"].map((experience,index) => {
                   return (
-                    <ExperienceCard experience={experience} theme={theme} />
+                    <ExperienceCard experience={experience} theme={theme} key={{index}} />
                   );
                 })}
               </Panel>
