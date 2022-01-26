@@ -424,12 +424,12 @@ const certifications = {
     },
 
     {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
+      title: "Web Development Intermediate Course",
+      subtitle: "GIRLSCRIPT.TECH",
+      logo_path: "gssoc.png",
       certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
+        "https://drive.google.com/file/d/1C2ERU1ehSQ2KJzwPYFiBOkYENQQujLoW/view?usp=sharing",
+      alt_name: "GIRLSCRIPT.TECH",
       color_code: "#FF5733",
     },
     // color_code: "#8C151599",
