@@ -9,12 +9,13 @@ function ProjectLanguages(props) {
         <ul className="dev-icons-languages">
           {props.logos.map((logo) => {
             return (
-              <OverlayTrigger
+             
+                <OverlayTrigger 
                 key={logo.name}
                 placement={"top"}
                 overlay={
                   <Tooltip id={`tooltip-top`}>
-                    <strong>{logo.name}</strong>
+                    <strong >{logo.name}</strong>
                   </Tooltip>
                 }
               >
@@ -29,6 +30,10 @@ function ProjectLanguages(props) {
                   ></span>
                 </li>
               </OverlayTrigger>
+        
+             
+              
+              
             );
           })}
         </ul>

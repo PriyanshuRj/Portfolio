@@ -563,7 +563,7 @@ const projects = {
         },
         {
           name: "Android",
-          iconifyClass: "logos-android",
+          iconifyClass: "logos-android-icon",
         },
 
       ],
