@@ -117,13 +117,6 @@ const skills = {
             color: "#29B0EE",
           },
         },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -213,8 +206,6 @@ const skills = {
             color: "#D10001",
           },
         },
-
-
         {
           skillName: "PyTorch",
           fontAwesomeClassname: "simple-icons:pytorch",
@@ -325,8 +316,6 @@ const skills = {
             color: "#01ABFF",
           },
         },
-        
-
         {
           skillName: "Adobe XD",
           fontAwesomeClassname: "simple-icons:adobexd",
@@ -334,7 +323,6 @@ const skills = {
             color: "#FF61F6",
           },
         },
-
         {
           skillName: "Adobe Audition",
           fontAwesomeClassname: "simple-icons:adobeaudition",
@@ -387,24 +375,16 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Machine Learning",
+      subtitle: "Stanford University",
+      logo_path: "courcera.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
+        "https://drive.google.com/file/d/1z4E4TMea8RF59VfzVLYRa_v24n5j1ZM3/view?usp=sharing",
+      alt_name: "Stanford University",
       // color_code: "#2AAFED",
-      color_code: "#47A048",
+      color_code: "#0096FF",
     },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
+    
     {
       title: "A300: Atlas Security",
       subtitle: "MongoDB University",
@@ -416,11 +396,20 @@ const certifications = {
       color_code: "#47A048",
     },
     {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
+      title: "Neural Network and Deep Learning",
+      subtitle: "DeepLearning.ai",
+      logo_path: "courcera.png",
       certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
+        "https://drive.google.com/file/d/1JnVAfQ_Tad9E35HsyAeM-ShcaNogocT3/view?usp=sharing",
+      alt_name: "DeepLearning.ai",
+      color_code: "#0096FF",
+    },
+    {
+      title: "ReactJs Course",
+      subtitle: "Udemy",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1RLMWmEUGg2BVX3-FFSH4Klc1u1oaQ-GJ/view?usp=sharing",
       alt_name: "Workshop",
       color_code: "#2AAFED",
     },
@@ -441,8 +430,7 @@ const certifications = {
       certificate_link:
         "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
       alt_name: "Postman",
-  
-      color_code: "#fffbf3",
+      color_code: "#FF5733",
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
