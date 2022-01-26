@@ -170,7 +170,7 @@ const skills = {
     },
     {
       title: "Machine Learning",
-      fileName: "CloudInfraImg",
+      fileName: "DataScienceImg",
       skills: [
         "⚡ Experience working on multiple Machine Learning and Deep Learning Models",
         "⚡ Experience hosting and Developing Models",
@@ -290,7 +290,7 @@ const skills = {
     },
     {
       title: "Designing and Animation",
-      fileName: "CloudInfraImg",
+      fileName: "DesignImg",
       skills: [
         "⚡ Experience working on Poster designing and video editing",
         "⚡ Experience creting digital content for multiple platform and also for web pages",
