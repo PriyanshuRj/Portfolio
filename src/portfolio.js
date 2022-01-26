@@ -555,7 +555,7 @@ const projects = {
       id: "0",
       name: "Learning_Pocket",
       url: "https://github.com/PriyanshuRj/Learning_Pocket",
-      description: "The project revolves around deciphering free body diagrams, interpreting all the forces acting on it and imparting steps to further solve the problem. The idea emerged out of solving complex physics problems, especially by NEET or JEE aspirants. Our programme will help these aspiring students to get solutions of convoluted problems at an instance. This will act as a knowledge booster for an average student for whom hesitation is a stumbling block which devoids him/her to get the doubts clear from the mentor.",
+      description: "The project revolves around deciphering free body diagrams, interpreting all the forces acting on it and imparting steps to further solve the problem. The idea emerged out of solving complex physics problems. Our programme will help these aspiring students to get solutions of convoluted problems at an instance. This will act as a knowledge booster for an average student.",
       languages: [
         {
           name: "Python",
@@ -575,61 +575,18 @@ const projects = {
         },
         {
           name: "Android",
-          iconifyClass: "logos-react",
+          iconifyClass: "logos-android",
         },
 
       ],
     },
-    {
-      id: "1",
-      name: "MEDEX",
-      url: "https://github.com/PriyanshuRj/MEDEX",
-      description:
-        "This is a online based platform which will help you to distinguish between real and fake medicines, in the market.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
 
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-      ],
-    },
     {
       id: "2",
       name: "Dhrishtivadit",
       url: "https://github.com/PriyanshuRj/Drishtivadhit-withserver",
       description:
-        "A site for a NGO serving optically chalanged people.",
+        "A site for a NGO serving optically chalanged people. The site is developed on MERN stack it contains login for Teacher, Members and other employees. Where teacher can upload documents and other people can donate money for the beterment of the blind peoples",
       languages: [
         {
           name: "NodeJS",
@@ -680,6 +637,23 @@ const projects = {
       ],
     },
     {
+      id: "4",
+      name: "Safty Helmet and Vest Detection",
+      url: "https://github.com/PriyanshuRj/SaftyHelmet_and_Vest_Classifier",
+      description:
+        "This project aims to utilize existing CCTV camera infrastructure to assist supervisors to monitor workers effectively by providing them with real time alerts.",
+      languages: [
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+      ],
+    },
+    {
       id: "3",
       name: "Student Helper Website",
       url: "https://github.com/PriyanshuRj/reboot.git",
@@ -696,20 +670,48 @@ const projects = {
         },
       ],
     },
+
     {
-      id: "4",
-      name: "Safty Helmet and Vest Detection",
-      url: "https://github.com/PriyanshuRj/SaftyHelmet_and_Vest_Classifier",
+      id: "1",
+      name: "MEDEX",
+      url: "https://github.com/PriyanshuRj/MEDEX",
       description:
-        "This project aims to utilize existing CCTV camera infrastructure to assist supervisors to monitor workers effectively by providing them with real time alerts.",
+        "This is a online based platform which will help you to distinguish between real and fake medicines, in the market.",
       languages: [
         {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
         },
         {
           name: "Python",
           iconifyClass: "logos-python",
+        },
+        {
+          name: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+
+        },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Dart",
+          fontAwesomeClassname: "simple-icons:dart",
+          style: {
+            color: "#29B0EE",
+          },
         },
       ],
     },

@@ -56,12 +56,15 @@
 }
 
 .repo-cards-div-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  gap: 1rem 1rem; */
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 @media (max-width: 1380px) {

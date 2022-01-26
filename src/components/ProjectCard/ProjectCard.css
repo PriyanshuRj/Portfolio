@@ -38,7 +38,6 @@
 }
 
 .repo-name {
-  white-space: nowrap;
   line-height: 1.1;
   text-overflow: ellipsis;
   color: rgb(36, 41, 46);
@@ -49,6 +48,7 @@
   letter-spacing: -0.5px;
   overflow: hidden;
   margin: 0px;
+  text-align: left;
 }
 
 .repo-star-svg {
@@ -58,12 +58,33 @@
 .repo-description {
   word-wrap: break-word;
   text-align: left;
-  display: -webkit-box;
+  width: 100%;
+  display: block;
+  font-size:20px;
+  /* display: -webkit-box; */
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
-
+.cards__item {
+  display: flex;
+  padding: 1rem;
+}
+@media (min-width: 40rem) {
+  .cards__item {
+    width: 50%;
+  }
+}
+@media (min-width: 85rem) {
+  .cards__item {
+    width: 33.3333%;
+  }
+}
+@media (min-width: 105rem) {
+  .cards__item {
+    width: 25%;
+  }
+}
 .repo-details {
   display: flex;
   flex-direction: row;
@@ -93,4 +114,7 @@
   .repo-creation-date {
     font-size: 14px;
   }
+}
+.cards__item{
+
 }

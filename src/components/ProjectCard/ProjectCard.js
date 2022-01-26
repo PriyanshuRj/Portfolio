@@ -12,12 +12,19 @@ export default function ProjectCard({ repo, theme }) {
 
   const styles = style({
     color: "rgb(88, 96, 105)",
-    backgroundColor: "rgb(255, 255, 255)",
+    // backgroundColor: "rgb(255, 255, 255)",
     boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
     padding: "2rem",
     cursor: "pointer",
     borderRadius: "5px",
     height: "100%",
+
+    background: "rgba( 255, 255, 255, 0.25 )",
+    boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+    backdropFilter: "blur( 8px )",
+    webkitBackdropFilter: "blur( 8px )",
+    borderRadius: "10px",
+    border: "1px solid rgba( 255, 255, 255, 0.18 )",
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `${theme.imageDark} 0 2px 15px`,
@@ -25,13 +32,15 @@ export default function ProjectCard({ repo, theme }) {
   });
 
   return (
-    <div>
+    <div className="cards__item">
+      <div >
       <Fade bottom duration={2000} distance="40px">
         <div
+          className="project-card"
           {...styles}
           key={repo.id}
           onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
+          // style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
@@ -46,6 +55,7 @@ export default function ProjectCard({ repo, theme }) {
           </div>
         </div>
       </Fade>
+      </div>
     </div>
   );
 }
