@@ -50,7 +50,7 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} target="_blank" className="general-btn" href={greeting.resumeLink}>
+              <a {...styles} target="_blank" rel="noopener noreferrer" className="general-btn" href={greeting.resumeLink}>
                 See my Resume
               </a>
             </div>
