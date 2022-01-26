@@ -15,14 +15,14 @@ const greeting = {
   nickname: "Pboss",
   full_name: "Priyanshu Rajput",
   subTitle:
-    "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+    "Full Stack Developer, Machine Learning Enthusiast 🔥. Always in my learning phase.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:hkanani191@gmail.com",
 };
 
 const socialMediaLinks = {
-  /* Your Social Media Link */
+  /* Social Media Link */
   github: "https://github.com/PriyanshuRj",
   linkedin: "https://www.linkedin.com/in/priyanshu-rajput-144990201/",
   gmail: "priyanshu011109@gmail.com",
@@ -281,10 +281,10 @@ const degrees = {
       alt_name: "NITH",
       duration: "2020 - Present",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in IComputer Science and Engineering."
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I'm currently pursuing my bachelors in Computer Science and Engineering.",
+        "⚡ I have studied core subjects like Data Structures, DBMS, etc.",
+        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "https://nith.ac.in/",
     },
@@ -293,11 +293,9 @@ const degrees = {
       subtitle: "Diploma in Information Technology",
       logo_path: "nith.png",
       alt_name: "VBPS",
-      duration: "2018 - 2020",
+      duration: "2016 - 2019",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I'm completed my High school and Intermediate from this School."
       ],
       website_link: "http://vbpsnoida.com/",
     },
@@ -353,15 +351,7 @@ const certifications = {
       alt_name: "Google",
       color_code: "#fe0037",
     },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
+
     {
       title: "Postman Student Expert",
       subtitle: "Postman",
@@ -389,7 +379,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I'm Curently pursuing my first internship. I've mostly done projects on Machine Lerning and Web Development and I am actively looking for Colaboration. I love exchanging words on latest technology to share my knowledge with others.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -397,55 +387,38 @@ const experience = {
       experiences: [
         {
           title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
+          company: "AppDeployer",
           company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
+          logo_path: "nith.png",
+          duration: "jan-2022 - Present",
+          location: "Online",
           description:
-          `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
+          `Working as a Front-end Developer at AppDeployer is a great experience to learn new technologies and work on real world projects. Curently developing Admin Dashboard.
           `,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+           
           color: "#0071C5",
         },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description:
-          `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
-        }
+
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Society For Promotion of ELectronics",
+          company: "SPEC",
+          company_url: "https://specnith.com/",
+          logo_path: "spec.png",
+          duration: "Dec 2020 - Present",
+          location: "Executive",
           description:
             "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
           color: "#4285F4",
         },
         {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
+          title: "Campus Ambasador",
+          company: "PrepBytes",
+          company_url: "https://www.prepbytes.com/",
           logo_path: "skillenza.png",
           duration: "Feb 2021 - Present",
           location: "Work from Home",
@@ -453,49 +426,17 @@ const experience = {
           color: "#196acf",
         },
         {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
+          title: "Vibhav",
+          company: "Vibhav",
+          company_url: "https://vibhav-nith.netlify.app/",
+          logo_path: "Vibhav.png",
+          duration:"Feb 2021 - Present",
+          location: "Executive",
           description:
           "Contribute to Open Source Community and Open Source Project.",
           color: "#040f26",
         },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
+        
       ],
     },
   ],
