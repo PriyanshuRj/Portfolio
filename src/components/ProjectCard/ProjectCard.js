@@ -12,8 +12,8 @@ export default function ProjectCard({ repo, theme }) {
 
   const styles = style({
     color: "rgb(88, 96, 105)",
-    // backgroundColor: "rgb(255, 255, 255)",
-    padding: "2rem",
+  
+    // padding: "2rem",
     cursor: "pointer",
     height: "100%",
 
@@ -26,6 +26,7 @@ export default function ProjectCard({ repo, theme }) {
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `${theme.imageDark} 0 2px 15px`,
+      transform: 'scale(1.5)'
     },
   });
 
@@ -40,6 +41,8 @@ export default function ProjectCard({ repo, theme }) {
           onClick={() => openRepoinNewTab(repo.url)}
           // style={{ backgroundColor: theme.projectCard }}
         >
+          <img className="project-card-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg" alt="cherry blossoms" style={{width: '100%',borderRadius:'10px'}}></img>
+          <div style={{padding: '2rem'}}>
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}
@@ -51,6 +54,7 @@ export default function ProjectCard({ repo, theme }) {
           <div className="repo-details">
             <ProjectLanguages logos={repo.languages} />
           </div>
+        </div>
         </div>
       </Fade>
       </div>
