@@ -1,16 +1,28 @@
 import React from "react";
 import "./ExperienceCard.css";
+import { style } from "glamor";
 
 function ExperienceCard(props) {
   const experience = props.experience;
   const theme = props.theme;
+  const styles = style({
+    // backgroundColor: theme.accentColor[1],
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentColor[1]}`,
+      
+    },
+    background:"rgba( 255, 255, 255, 0.2 )",
+    boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
+    backdropFilter: 'blur( 4px )',
+    // -webkit-backdrop-filter: 'blur( 4px )',
+    borderRadius: '10px',
+    border: '1px solid rgba( 255, 255, 255, 0.18 )',
+  });
+
   return (
     <div
       className="experience-card"
-      style={{
-        border: `1px solid ${experience["color"]}`,
-        backgroundColor: theme.imageDark,
-      }}
+   {...styles}
     >
       <div className="experience-card-logo-div">
         <img
