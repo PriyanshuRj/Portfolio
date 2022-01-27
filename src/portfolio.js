@@ -413,7 +413,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1RLMWmEUGg2BVX3-FFSH4Klc1u1oaQ-GJ/view?usp=sharing",
       alt_name: "Workshop",
-      color_code: "#2AAFED",
+      color_code: "#676FA3",
     },
     {
       title: "MLH Local Hack Day: Build",

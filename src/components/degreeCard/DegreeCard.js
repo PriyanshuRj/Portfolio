@@ -105,7 +105,7 @@ function DegreeCard(props) {
           <div className="body-content">
             {degree.descriptions.map((sentence,index) => {
               return (
-                <p className="content-list" style={{ color: theme.text }} key={{index}}>
+                <p className="content-list" style={{ color: theme.text }} key={theme.text.concat(index)}>
                   {sentence}
                 </p>
               );
