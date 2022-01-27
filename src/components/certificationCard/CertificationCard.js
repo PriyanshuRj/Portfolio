@@ -31,14 +31,8 @@ function CertificationCard(props) {
            
            
         <img src="https://i.imgur.com/2DhmtJ4.jpg" className="certi_card__image" alt="" />
-      <div className="certi_card__overlay" 
-      style={{ backgroundColor: 'rgba( 255, 255, 255, 0.35 )' }}
- 
-      >
-        <div className="certi_card__header" 
-        
-     
-        >
+      <div className="certi_card__overlay" >
+        <div className="certi_card__header">
           <svg className="certi_card__arc" xmlns="http://www.w3.org/2000/svg" style={{ fill: 'rgba( 255, 255, 255, 0.35 )' }}><path /></svg>                 
           <img
                 className="certi_card__thumb"
