@@ -12,9 +12,9 @@ export default function Greeting(props) {
   const history = useHistory();
 
   const styles = style({
-    backgroundColor: `${theme.accentBright}`,
+    backgroundColor: `${theme.accentColor[1]}`,
     ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
+      boxShadow: `0 5px 15px ${theme.accentColor[1]}`,
     },
   });
 
@@ -30,7 +30,7 @@ export default function Greeting(props) {
                 style={{ color: theme.secondaryText }}
               >
                 <span>I'm </span>
-                <span style={{ color: theme.accentColor }}>
+                <span style={{ color: theme.accentColor[0] }}>
                   {greeting.full_name}.{" "}
                 </span>
                 {greeting.subTitle}

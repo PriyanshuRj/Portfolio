@@ -12,9 +12,9 @@ function Projects(props) {
   const theme = props.theme;
 
   const styles = style({
-    backgroundColor: `${theme.accentBright}`,
+    backgroundColor: `${theme.accentColor[1]}`,
     ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
+      boxShadow: `0 5px 15px ${theme.accentColor[1]}`,
     },
   });
 
