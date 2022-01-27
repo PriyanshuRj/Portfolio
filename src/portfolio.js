@@ -380,6 +380,7 @@ const certifications = {
       title: "Machine Learning",
       subtitle: "Stanford University",
       logo_path: "courcera.png",
+      img_path:'ml.png',
       certificate_link:
         "https://drive.google.com/file/d/1z4E4TMea8RF59VfzVLYRa_v24n5j1ZM3/view?usp=sharing",
       alt_name: "Stanford University",
@@ -391,6 +392,7 @@ const certifications = {
       title: "A300: Atlas Security",
       subtitle: "MongoDB University",
       logo_path: "mongo.png",
+      img_path:'webd2.png',
       certificate_link:
         "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
       alt_name: "MongoDB University",
@@ -401,15 +403,17 @@ const certifications = {
       title: "Neural Network and Deep Learning",
       subtitle: "DeepLearning.ai",
       logo_path: "courcera.png",
+      img_path:'dl.png',
       certificate_link:
         "https://drive.google.com/file/d/1JnVAfQ_Tad9E35HsyAeM-ShcaNogocT3/view?usp=sharing",
       alt_name: "DeepLearning.ai",
-      color_code: "#0096FF",
+      color_code: "rgb(0, 150, 255)",
     },
     {
       title: "ReactJs Course",
       subtitle: "Udemy",
       logo_path: "udemy.png",
+      img_path:'webd.png',
       certificate_link:
         "https://drive.google.com/file/d/1RLMWmEUGg2BVX3-FFSH4Klc1u1oaQ-GJ/view?usp=sharing",
       alt_name: "Workshop",
@@ -419,6 +423,7 @@ const certifications = {
       title: "MLH Local Hack Day: Build",
       subtitle: "Major League Hacking",
       logo_path: "mlh-logo.svg",
+      img_path:'ml.png',
       certificate_link:
         "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
       alt_name: "Google",
@@ -429,6 +434,7 @@ const certifications = {
       title: "Web Development Intermediate Course",
       subtitle: "GIRLSCRIPT.TECH",
       logo_path: "gssoc.png",
+      img_path:'web3.png',
       certificate_link:
         "https://drive.google.com/file/d/1C2ERU1ehSQ2KJzwPYFiBOkYENQQujLoW/view?usp=sharing",
       alt_name: "GIRLSCRIPT.TECH",

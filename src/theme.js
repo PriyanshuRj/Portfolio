@@ -5,7 +5,6 @@ function randomcolor(AccentColor) {
 }
 // let baseColor = randomcolor(AccentColor);
 const lightTheme = {
-  baseColor:randomcolor(AccentColor),
   name: "light",
   body: "#FFFFFF",
   text: "#343434",
