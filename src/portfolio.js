@@ -15,7 +15,7 @@ const greeting = {
   nickname: "Pboss",
   full_name: "Priyanshu Rajput",
   subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast 🔥. Always in my learning phase.",
+    "Full Stack Developer, Machine Learning Enthusiast 😎. Always in my learning phase.",
   resumeLink:
     "https://drive.google.com/file/d/1JSu_8fHAdzwTCdMAf5pqJv_FiOj49eIC/view?usp=sharing",
   mail: "mailto:oriyanshu011109@gmail.com",
@@ -38,11 +38,11 @@ const skills = {
       title: "MERN Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "🌐 Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+        "🌐 Building responsive website front end using ReactJS",
+        "🌐 Developing mobile applications using Flutter and Android",
+        "🌐 Creating application backend in Node, Express & Flask",
+        "🌐 Integration of third party services such as Firebase/ AWS / Digital Ocean"
       ],
       softwareSkills: [
         {
