@@ -384,21 +384,12 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1z4E4TMea8RF59VfzVLYRa_v24n5j1ZM3/view?usp=sharing",
       alt_name: "Stanford University",
-      // color_code: "#2AAFED",
+      color: "#0B5394",
       color_code: "#0096FF",
+      discription:'An online non-credit course authorized by Stanford University and offered through Coursera'
     },
     
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      img_path:'webd2.png',
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
+   
     {
       title: "Neural Network and Deep Learning",
       subtitle: "DeepLearning.ai",
@@ -408,6 +399,7 @@ const certifications = {
         "https://drive.google.com/file/d/1JnVAfQ_Tad9E35HsyAeM-ShcaNogocT3/view?usp=sharing",
       alt_name: "DeepLearning.ai",
       color_code: "rgb(0, 150, 255)",
+      discription:'An online non-credit course authorized by DeepLearning.AI and offered through Coursera'
     },
     {
       title: "ReactJs Course",
@@ -418,17 +410,9 @@ const certifications = {
         "https://drive.google.com/file/d/1RLMWmEUGg2BVX3-FFSH4Klc1u1oaQ-GJ/view?usp=sharing",
       alt_name: "Workshop",
       color_code: "#676FA3",
+      discription:'The complete ReactJS Course- Basic to Advance',
     },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      img_path:'ml.png',
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
+   
 
     {
       title: "Web Development Intermediate Course",
@@ -439,6 +423,7 @@ const certifications = {
         "https://drive.google.com/file/d/1C2ERU1ehSQ2KJzwPYFiBOkYENQQujLoW/view?usp=sharing",
       alt_name: "GIRLSCRIPT.TECH",
       color_code: "#FF5733",
+      discription:'Web Development Intermediate Course as a part of GirlScript Education Outreach Program '
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",

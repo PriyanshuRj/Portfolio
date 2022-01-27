@@ -31,9 +31,9 @@ function CertificationCard(props) {
            
            
         <img src={require(`../../assests/images/${certificate.img_path}`)} className="certi_card__image" alt="" />
-      <div className="certi_card__overlay" style={{backgroundColor: certificate.color_code}}>
-        <div className="certi_card__header" style={{backgroundColor: certificate.color_code}}>
-          <svg className="certi_card__arc" xmlns="http://www.w3.org/2000/svg" style={{ fill: certificate.color_code }}><path /></svg>                 
+      <div className="certi_card__overlay" style={{backgroundColor: theme.body}}>
+        <div className="certi_card__header" style={{backgroundColor: theme.body}}>
+          <svg className="certi_card__arc" xmlns="http://www.w3.org/2000/svg" style={{ fill: theme.body }}><path /></svg>                 
           <img
                 className="certi_card__thumb"
                 src={require(`../../assests/images/${certificate.logo_path}`)}
@@ -41,10 +41,10 @@ function CertificationCard(props) {
               />
           <div className="certi_card__header-text" >
             <h3 className="certi_card__title" style={{ color: theme.text }}>{certificate.title}</h3>
-            <span className="certi_card__status" style={{ color: theme.secondaryText  }}>{certificate.subtitle}</span>
+            <span className="certi_card__status" style={{ color: theme.text  }}>{certificate.subtitle}</span>
           </div>          
         </div>
-        <p className="certi_card__description" style={{ color: theme.secondaryText }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <p className="certi_card__description" style={{ color: theme.secondaryText }}>{certificate.discription}</p>
       </div>
 
 
