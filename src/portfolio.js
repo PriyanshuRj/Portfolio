@@ -165,9 +165,9 @@ const skills = {
       title: "Machine Learning",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience working on multiple Machine Learning and Deep Learning Models",
-        "⚡ Experience hosting and Developing Models",
-        "⚡ Experience with Continuous Integration",
+        "🤖 Experience working on multiple Machine Learning and Deep Learning Models",
+        "🤖 Experience hosting and Developing Models",
+        "🤖 Experience with Continuous Integration",
       ],
       softwareSkills: [
         {
@@ -231,61 +231,12 @@ const skills = {
       ],
     },
     {
-      title: "Hosting WebSites",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple hosting platform",
-        "⚡ Experience hosting and Developing webpages and projects",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        
-  
-      ],
-    },
-    {
       title: "Designing and Animation",
       fileName: "DesignImg",
       skills: [
-        "⚡ Experience working on Poster designing and video editing",
-        "⚡ Experience creting digital content for multiple platform and also for web pages",
-        "⚡ Experience with multiple Designing softwares",
+        "✨ Experience working on Poster designing and video editing",
+        "✨ Experience creting digital content for multiple platform and also for web pages",
+        "✨ Experience with multiple Designing softwares",
       ],
       softwareSkills: [
         {
@@ -339,6 +290,56 @@ const skills = {
         },
       ],
     },
+    {
+      title: "Hosting WebSites",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on multiple hosting platform",
+        "⚡ Experience hosting and Developing webpages and projects",
+        "⚡ Experience with Continuous Integration",
+      ],
+      softwareSkills: [
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "Heroku",
+          fontAwesomeClassname: "simple-icons:heroku",
+          style: {
+            color: "#6863A6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "simple-icons:mongodb",
+          style: {
+            color: "#47A248",
+          },
+        },
+        
+  
+      ],
+    },
+    
   ],
 };
 

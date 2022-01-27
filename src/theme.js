@@ -1,13 +1,18 @@
 // Theme Presets
-
+const AccentColor = [['#9AD0EC','#1572A1'],['#E3405F',"#FC1056"],['#4FBDBA','#24A19C'],['#FFCC1D','#FC9918']];
+function randomcolor(AccentColor) {
+  return AccentColor[Math.floor(Math.random() * AccentColor.length)];
+}
+// let baseColor = randomcolor(AccentColor);
 const lightTheme = {
+  baseColor:randomcolor(AccentColor),
   name: "light",
   body: "#FFFFFF",
   text: "#343434",
   dark: "#000000",
   secondaryText: "#7F8DAA",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
+  accentColor: randomcolor(AccentColor),
+  accentBright: randomcolor(AccentColor),
   projectCard: "#DCE4F2",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",
@@ -23,7 +28,7 @@ const darkTheme = {
   text: "#FFFFFF",
   dark: "#000000",
   secondaryText: "#8D8D8D",
-  accentColor: "#E3405F",
+  accentColor: "#F9D371",
   accentBright: "#FC1056",
   projectCard: "#292A2D",
   skinColor: "#F7B799",

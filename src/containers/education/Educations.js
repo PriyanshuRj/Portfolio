@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 
 function Educations(props) {
   const theme = props.theme;
-
+  
   return (
     <div className="main" id="educations">
       <div className="educations-header-div">
