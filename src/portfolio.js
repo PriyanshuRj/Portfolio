@@ -9,13 +9,12 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Hello ",
   title2: "Priyanshu",
   logo_name: "Pboss.js()",
   nickname: "Pboss",
   full_name: "Priyanshu Rajput",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast 😎. Always in my learning phase.",
+  subTitle:["Full Stack Developer", "Machine Learning Enthusiast","Video Editor","Graphic Designer"],
   resumeLink:
     "https://drive.google.com/file/d/1JSu_8fHAdzwTCdMAf5pqJv_FiOj49eIC/view?usp=sharing",
   mail: "mailto:oriyanshu011109@gmail.com",

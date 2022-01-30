@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
-
+import Type from "./typewriter";
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
@@ -24,7 +24,7 @@ export default function Greeting(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
+              <h1 className="greeting-text">{greeting.title}<span className="greeting-wave">👋</span>.</h1>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
@@ -33,8 +33,10 @@ export default function Greeting(props) {
                 <span style={{ color: theme.accentColor[0] }}>
                   {greeting.full_name}.{" "}
                 </span>
-                {greeting.subTitle}
+                {/* {greeting.subTitle} */}
+                <Type />
               </p>
+              
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button
