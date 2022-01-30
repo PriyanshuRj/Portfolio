@@ -1,83 +1,78 @@
-.skills-main-div {
+.about-main-div {
     display: flex;
   }
-  
-  .skills-header {
-    font-size: 60px;
-    line-height: 1.1;
-    font-family: "Google Sans Regular";
-    text-align: center;
-  }
-  
-  .skills-text {
-    font-size: 20px;
-  }
-  
-  .skills-text-div {
+
+  .about-text-div {
     margin-left: 50px;
     margin-top: 3%;
     padding-top: 80px;
     font-family: "Google Sans Regular";
   }
   
-  .skills-main-div > * {
+  .about-main-div > * {
     flex: 1;
   }
   
-  .skills-image-div > * {
+  .about-image-div > * {
     max-width: 100%;
     height: auto;
     margin-top: 100px;
   }
   
-  .skills-heading {
+  .about-heading {
     font-size: 50px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     padding-bottom: 10px;
     font-family: "Google Sans Regular";
+  }
+  .about-text-p {
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+    text-align: justify;
   }
   
   /* Media Query */
   @media (max-width: 1380px) {
-    .skills-heading {
+    .about-heading {
       font-size: 40px;
     }
-    .skills-header {
-      font-size: 50px;
+
+    .about-text-p {
+      font-size: 20px;
     }
   }
   @media (max-width: 768px) {
-    .skills-heading {
+    .about-heading {
       font-size: 30px;
       text-align: center;
     }
-    .skills-header {
-      font-size: 30px;
-    }
+
     .greeting-text-p {
       font-size: 16px;
       line-height: normal;
     }
-    .skills-main-div {
+    .about-main-div {
       flex-direction: column;
     }
-    .skills-text-div {
+    .about-text-div {
       margin-left: 0px;
       margin: 20px;
     }
-    .skills-text {
-      font-size: 16px;
-    }
-    .skills-text-subtitle {
-      font-size: 16px;
-      text-align: center;
-    }
-    .skills-image-div {
+
+    .about-image-div {
       order: 2;
     }
-    .skills-image-div > * {
+    .about-image-div > * {
       margin-top: 0px;
     }
+    .about-text-p {
+      font-size: 16px;
+      margin-right: 0px;
+      line-height: normal;
+      text-align: center;
+    }
   }
-  
+

@@ -1,5 +1,5 @@
 // Theme Presets
-const AccentColor = [['#9AD0EC','#1572A1'],['#E3405F',"#FC1056"],['#4FBDBA','#24A19C'],['#FFCC1D','#FC9918']];
+const AccentColor = [['#9AD0EC','#1572A1'],['#d34235',"#eb6559"],['#E3405F',"#FC1056"],['#4FBDBA','#24A19C'],['#FFCC1D','#FC9918']];
 function randomcolor(AccentColor) {
   return AccentColor[Math.floor(Math.random() * AccentColor.length)];
 }

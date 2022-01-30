@@ -41,7 +41,7 @@ export default function ProjectCard({ repo, theme }) {
           onClick={() => openRepoinNewTab(repo.url)}
           // style={{ backgroundColor: theme.projectCard }}
         >
-          <img className="project-card-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg" alt="cherry blossoms" style={{width: '100%',borderRadius:'10px'}}></img>
+          <img className="project-card-image" src={repo.img_url} alt={repo.name} style={{width: '100%',borderRadius:'10px'}}></img>
           <div style={{padding: '2rem'}}>
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>

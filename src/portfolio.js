@@ -436,7 +436,11 @@ const certifications = {
     // color_code: "#b190b0",
   ],
 };
-
+//aboutPage
+const about = {
+  title :"About",
+  discription:' Creative and Tech-savvy Web Developer intern dedicated to develop, contribute and optimize Websites and Web app which are interactive and userfriendly. Team player with an eye for detail. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth. Technically proficient and leverage analytical problem solver with calm and focused demeanor.'
+}
 // Experience Page
 const experience = {
   title: "Experience",
@@ -509,7 +513,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Machine Learning and Deep Learning Models using TensorFlow and Keras, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -518,6 +522,7 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "self.jpg",
+    
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -536,6 +541,7 @@ const projects = {
       id: "0",
       name: "Learning_Pocket",
       url: "https://github.com/PriyanshuRj/Learning_Pocket",
+      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
       description: "The project revolves around deciphering free body diagrams, interpreting all the forces acting on it and imparting steps to further solve the problem. The idea emerged out of solving complex physics problems. Our programme will help these aspiring students to get solutions of convoluted problems at an instance. This will act as a knowledge booster for an average student.",
       languages: [
         {
@@ -566,6 +572,7 @@ const projects = {
       id: "2",
       name: "Dhrishtivadit",
       url: "https://github.com/PriyanshuRj/Drishtivadhit-withserver",
+      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
       description:
         "A site for a NGO serving optically chalanged people. The site is developed on MERN stack it contains login for Teacher, Members and other employees. Where teacher can upload documents and other people can donate money for the beterment of the blind peoples",
       languages: [
@@ -592,42 +599,10 @@ const projects = {
       id: "3",
       name: "Face Schiled Detection",
       url: "https://github.com/PriyanshuRj/faceShield_detector",
+      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
       description:
         "In difficult time like these where viruses like Covid 19 are spreading world-wide we need to keep safe distance from each other and wear appropriate safty gears this project looks into that topic it helps us recognize that a person is wearing faceshield or not so that overall safty of all is maintained.",
       languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Safty Helmet and Vest Detection",
-      url: "https://github.com/PriyanshuRj/SaftyHelmet_and_Vest_Classifier",
-      description:
-        "This project aims to utilize existing CCTV camera infrastructure to assist supervisors to monitor workers effectively by providing them with real time alerts.",
-      languages: [
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs",
-        },
         {
           name: "Python",
           iconifyClass: "logos-python",
@@ -635,9 +610,40 @@ const projects = {
       ],
     },
     {
+      id: "4",
+      name: "Safty Helmet and Vest Detection",
+      url: "https://github.com/PriyanshuRj/SaftyHelmet_and_Vest_Classifier",
+      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      description:
+        "This project aims to utilize existing CCTV camera infrastructure to assist supervisors to monitor workers effectively by providing them with real time alerts.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          skillName: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+
+        },
+        {
+          skillName: "OpenCV",
+          iconifyClass: "logos-opencv",
+
+        },
+        {
+          skillName: "OpenCV",
+          iconifyClass: "logos-googlecolab",
+
+        },
+
+      ],
+    },
+    {
       id: "3",
       name: "Student Helper Website",
       url: "https://github.com/PriyanshuRj/reboot.git",
+      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
       description:
         "A website which have similar use case as udemy but also intigrates AR aspect for better information Grasping.",
       languages: [
@@ -649,16 +655,10 @@ const projects = {
           name: "NodeJS",
           iconifyClass: "logos-nodejs",
         },
-      ],
-    },
-
-    {
-      id: "1",
-      name: "MEDEX",
-      url: "https://github.com/PriyanshuRj/MEDEX",
-      description:
-        "This is a online based platform which will help you to distinguish between real and fake medicines, in the market.",
-      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
         {
           name: "HTML5",
           iconifyClass: "vscode-icons:file-type-html",
@@ -666,6 +666,26 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+
+    {
+      id: "1",
+      name: "MEDEX",
+      url: "https://github.com/PriyanshuRj/MEDEX",
+      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      description:
+        "This is a online based platform which will help you to distinguish between real and fake medicines, in the market.",
+      languages: [
+
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
         },
         {
           name: "React",
@@ -677,22 +697,18 @@ const projects = {
         },
         {
           name: "Flask",
-          fontAwesomeClassname: "simple-icons:flask",
+          iconifyClass: "logos-flask",
 
         },
         {
           skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          iconifyClass: "logos-flutter",
+
         },
         {
           skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
+          iconifyClass: "logos-dart",
+
         },
       ],
     },
@@ -705,6 +721,7 @@ export {
   greeting,
   socialMediaLinks,
   skills,
+  about,
   degrees,
   certifications,
   experience,
