@@ -27,11 +27,28 @@
     font-family: "Google Sans Regular";
   }
   .about-text-p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
     margin-right: 40px;
     font-family: "Google Sans Medium";
     text-align: justify;
+    margin-top:1rem;
+  }
+  .about-text-head {
+    font-size: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+    text-align: justify;
+    margin-top:1rem;
+
+  }
+  .about-text-subhead{
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+    margin-top:1rem;
   }
   
   /* Media Query */
@@ -41,7 +58,13 @@
     }
 
     .about-text-p {
+      font-size: 18px;
+    }
+    .about-text-subhead {
       font-size: 20px;
+    }
+    .about-text-head{
+      font-size: 30px;
     }
   }
   @media (max-width: 768px) {
@@ -70,6 +93,18 @@
     }
     .about-text-p {
       font-size: 16px;
+      margin-right: 0px;
+      line-height: normal;
+      text-align: center;
+    }
+    .about-text-subhead {
+      font-size: 16px;
+      margin-right: 0px;
+      line-height: normal;
+      text-align: center;
+    }
+    .about-text-head{
+      font-size: 20px;
       margin-right: 0px;
       line-height: normal;
       text-align: center;

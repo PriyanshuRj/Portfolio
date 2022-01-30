@@ -424,6 +424,17 @@ const certifications = {
       color_code: "#FF5733",
       discription:'Web Development Intermediate Course as a part of GirlScript Education Outreach Program '
     },
+    {
+      title: "CSS Skill Assessment",
+      subtitle: "HackerRank",
+      logo_path: "HackerRank.png",
+      img_path:'webd2.png',
+      certificate_link:
+        "https://www.hackerrank.com/certificates/dc64ae479e2e",
+      alt_name: "HackerRank",
+      color_code: "#FF5733",
+      discription:'Web Development Intermediate Course as a part of GirlScript Education Outreach Program '
+    },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -438,6 +449,8 @@ const certifications = {
 //aboutPage
 const about = {
   title :"About",
+  discriptionLine:'Full Stack Developer, Machine Learning Enthusiast.',
+  extraLine:" Always in my learning phase.",
   discription:' Creative and Tech-savvy Web Developer intern dedicated to develop, contribute and optimize Websites and Web app which are interactive and userfriendly. Team player with an eye for detail. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth. Technically proficient and leverage analytical problem solver with calm and focused demeanor.'
 }
 // Experience Page

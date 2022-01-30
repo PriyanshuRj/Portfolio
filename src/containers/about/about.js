@@ -9,15 +9,24 @@ export default function About(props) {
 
               <div className="about-text-div">
                 <Fade left duration={1000}>
-                  <h1 className="about-heading" style={{ color: theme.accentColor[0] }}>
+                  <h1 className="about-heading" style={{ color: theme.accentColor[1] }}>
                     {about.title}
                   </h1>
                 </Fade>
-                <Fade left duration={1500}>
-                  {/* <SoftwareSkill logos={skill.softwareSkills} /> */}
+                <Fade left duration={1400}>
+                  <div className="about-text-head" style={{ color: theme.accentColor[0] }}>
+                  {about.extraLine}
+                  </div>
                 </Fade>
                 <Fade left duration={2000}>
+                <div className="about-text-subhead">
+                {about.discriptionLine}
+                </div>
+                </Fade>
+             
+                <Fade left duration={2500}>
                   <div className="about-text-p" style={{ color: theme.secondaryText }}>
+                   
                  {about.discription}
                   </div>
                 </Fade>
