@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Portfolio | Priyanshu",
-  "homepage": "http://PriyanshuRj.github.io/Resume",
+  "homepage": "http://PriyanshuRj.github.io/Portfolio",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",

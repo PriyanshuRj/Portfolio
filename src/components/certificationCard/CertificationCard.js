@@ -17,7 +17,7 @@ function CertificationCard(props) {
 
   return (
     <Fade bottom duration={2000} distance="20px">
-      <div className="cert-card" 
+      <div className="card__item" 
 
       >
         <div className="content">

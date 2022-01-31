@@ -106,7 +106,7 @@ const skills = {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
-            color: "#02569B",
+            color: "#3fb6d3",
           },
         },
         {
@@ -124,6 +124,20 @@ const skills = {
           },
         },
         {
+          skillName: "SASS",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#c69",
+          },
+        },
+        {
+          skillName: "Socket.io",
+          fontAwesomeClassname: "simple-icons:socketdotio",
+          style: {
+            color: "#101010",
+          },
+        },
+        {
           skillName: "jQuery",
           fontAwesomeClassname: "simple-icons:jquery",
           style: {
@@ -131,10 +145,31 @@ const skills = {
           },
         },
         {
+          skillName: "Tailwind",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#3fb6d3",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#59407f",
+          },
+        },
+        {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Github",
+          fontAwesomeClassname: "simple-icons:github",
+          style: {
+            color: "#101010",
           },
         },
         {
@@ -149,6 +184,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
             color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
+          style: {
+            color: "#f58220",
           },
         },
         {

@@ -17,7 +17,7 @@ function Certifications(props) {
       </div>
       <ul className="certs-body-div">
         {certifications.certifications.map((cert) => {
-          return <li><CertificationCard certificate={cert} theme={theme} /></li>;
+          return <CertificationCard certificate={cert} theme={theme} />;
         })}
       </ul>
     </div>
