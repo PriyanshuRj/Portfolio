@@ -1,7 +1,9 @@
 .about-main-div {
     display: flex;
-  }
-
+}
+.about-image-div{
+  margin-top:auto;
+}
   .about-text-div {
     margin-left: 50px;
     margin-top: 3%;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Icon } from '@iconify/react';
 
 function SoftwareSkill(props) {
   return (
@@ -19,6 +20,7 @@ function SoftwareSkill(props) {
                 }
               >
                 <li className="software-skill-inline" name={logo.skillName}>
+                <Icon icon="mdi:home" style={{ color: 'red' }} />
                   <span
                     className="iconify"
                     data-icon={logo.fontAwesomeClassname}

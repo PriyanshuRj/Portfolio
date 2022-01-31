@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectLanguages.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
-
+import { Icon, InlineIcon } from '@iconify/react';
 function ProjectLanguages(props) {
   return (
     <div>
