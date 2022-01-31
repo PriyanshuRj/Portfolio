@@ -16,11 +16,11 @@ function CertificationCard(props) {
   });
 
   return (
-    <Fade bottom duration={2000} distance="20px">
-      <div className="card__item" 
-
+    <div className="cards__item" 
+    style={{margin:'auto'}}
       >
-        <div className="content">
+    <Fade bottom duration={2000} distance="20px">
+        <div className="certification-card">
           <a
             href={certificate.certificate_link}
             target="_blank"
@@ -52,9 +52,9 @@ function CertificationCard(props) {
           </a>
         </div>
         
+        </Fade>
       </div>
    
-    </Fade>
   );
 }
 

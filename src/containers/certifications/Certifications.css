@@ -21,7 +21,12 @@
   list-style: none;
   margin: auto;;
 }
-
+.certi-cards-div-main {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
 @media (max-width: 1380px) {
   .certs-header {
     font-size: 35px;

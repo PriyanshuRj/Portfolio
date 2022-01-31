@@ -50,7 +50,9 @@
   right: 0;      
   z-index: 1;
 }
-
+.certification-card{
+  width: 100%;
+}
 .certi_card__arc path {
   d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
 }       
@@ -96,3 +98,4 @@
   -webkit-line-clamp: 3;
   overflow: hidden;
 }    
+
