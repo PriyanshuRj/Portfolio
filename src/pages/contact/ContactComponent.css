@@ -9,6 +9,7 @@
 
 .contact-heading-div {
   display: flex;
+  align-items: center;
 }
 
 .blog-heading-div {
@@ -41,6 +42,7 @@
 .profile-pic {
   box-shadow: 0 5px 15px #353535;
   border-radius: 4px;
+  max-height: 32rem;
 }
 
 .blog-heading-img-div {
@@ -76,7 +78,8 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 60px;
+  margin-top:0px;
+
 }
 
 .blog-heading-text {
@@ -147,7 +150,15 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-
+.contact-button-container{
+  margin-top:1rem;
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+   
+}
 @media (max-width: 1380px) {
   .contact-heading-text {
     font-size: 50px;

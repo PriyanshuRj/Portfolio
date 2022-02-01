@@ -41,7 +41,11 @@ export default function ProjectCard({ repo, theme }) {
           onClick={() => openRepoinNewTab(repo.url)}
           // style={{ backgroundColor: theme.projectCard }}
         >
-          <img className="project-card-image" src={repo.img_url} alt={repo.name} style={{width: '100%',borderRadius:'10px'}}></img>
+          <div className="repo-card-bg">
+          <img className="project-card-image" 
+          src={require(`../../assests/images/${repo.img_url}`)}
+          // src={repo.img_url} 
+          alt={repo.name} style={{width: '100%',borderRadius:'10px'}}></img></div>
           <div style={{padding: '2rem'}}>
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>

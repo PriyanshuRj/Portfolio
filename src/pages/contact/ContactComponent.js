@@ -7,7 +7,6 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
-
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
@@ -37,7 +36,7 @@ function Contact(props) {
             <div className="contact-heading-text-div">
               <h1
                 className="contact-heading-text"
-                style={{ color: theme.text }}
+                style={{ color: theme.text,marginTop:0 }}
               >
                 {ContactData["title"]}
               </h1>
@@ -48,11 +47,14 @@ function Contact(props) {
                 {ContactData["description"]}
               </p>
               <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} target="_blank" rel="noopener noreferrer" className="general-btn" href={greeting.resumeLink}>
+              <div className="contact-button-container">
+               
+              <a {...styles} target="_blank" rel="noopener noreferrer" className="button" href={greeting.resumeLink}>
                 See my Resume
               </a>
+                
+              </div>
+              
             </div>
           </div>
         </Fade>

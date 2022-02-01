@@ -582,7 +582,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "self.jpg",
+    profile_image_path: "self.png",
     
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
@@ -602,7 +602,7 @@ const projects = {
       id: "0",
       name: "Learning_Pocket",
       url: "https://github.com/PriyanshuRj/Learning_Pocket",
-      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      img_url:"learning_pocket_reduce.jpg",
       description: "The project revolves around deciphering free body diagrams, interpreting all the forces acting on it and imparting steps to further solve the problem. The idea emerged out of solving complex physics problems. Our programme will help these aspiring students to get solutions of convoluted problems at an instance. This will act as a knowledge booster for an average student.",
       languages: [
         {
@@ -633,7 +633,7 @@ const projects = {
       id: "2",
       name: "Dhrishtivadit",
       url: "https://github.com/PriyanshuRj/Drishtivadhit-withserver",
-      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      img_url:"dhrishtiwadit_reduce.jpg",
       description:
         "A site for a NGO serving optically chalanged people. The site is developed on MERN stack it contains login for Teacher, Members and other employees. Where teacher can upload documents and other people can donate money for the beterment of the blind peoples",
       languages: [
@@ -660,7 +660,7 @@ const projects = {
       id: "3",
       name: "Face Schiled Detection",
       url: "https://github.com/PriyanshuRj/faceShield_detector",
-      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      img_url:"facemask_reduce.jpg",
       description:
         "In difficult time like these where viruses like Covid 19 are spreading world-wide we need to keep safe distance from each other and wear appropriate safty gears this project looks into that topic it helps us recognize that a person is wearing faceshield or not so that overall safty of all is maintained.",
       languages: [
@@ -674,7 +674,7 @@ const projects = {
       id: "4",
       name: "Safty Helmet and Vest Detection",
       url: "https://github.com/PriyanshuRj/SaftyHelmet_and_Vest_Classifier",
-      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      img_url:"construction.jpg",
       description:
         "This project aims to utilize existing CCTV camera infrastructure to assist supervisors to monitor workers effectively by providing them with real time alerts.",
       languages: [
@@ -704,7 +704,7 @@ const projects = {
       id: "3",
       name: "Student Helper Website",
       url: "https://github.com/PriyanshuRj/reboot.git",
-      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      img_url:"reboot_reduce.jpg",
       description:
         "A website which have similar use case as udemy but also intigrates AR aspect for better information Grasping.",
       languages: [
@@ -735,7 +735,7 @@ const projects = {
       id: "1",
       name: "MEDEX",
       url: "https://github.com/PriyanshuRj/MEDEX",
-      img_url:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cherry-blossoms-unsplash.jpg",
+      img_url:"medex_reduce.jpg",
       description:
         "This is a online based platform which will help you to distinguish between real and fake medicines, in the market.",
       languages: [
