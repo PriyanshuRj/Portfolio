@@ -539,7 +539,7 @@ const experience = {
           duration: "Dec 2020 - Present",
           location: "Executive",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "Worked as a Front-End Developer (ReactJS) and contributed in the development of two webste for the Society and also worked as Graphic Designer and video editor for the Society and published many of them on the official handels of the society.",
           color: "#4285F4",
         },
         
@@ -551,17 +551,17 @@ const experience = {
           duration:"Feb 2021 - Present",
           location: "Executive",
           description:
-          "Contribute to Open Source Community and Open Source Project.",
+          "Worked as Content Creator(Posters, video), Website designer and developed website forthe club , organized and conducted 5+ events and also Participated in exhibition to showcase projects made under the supervision of the society Leads",
           color: "#040f26",
         },
         {
-          title: "Campus Ambasador",
+          title: "Campus Manager",
           company: "PrepBytes",
           company_url: "https://www.prepbytes.com/",
           logo_path: "prepbytes.png",
           duration: "Sept 2021 - Present",
-          location: "Work from Home",
-          description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Prepbytes Community.",
+          location: "online",
+          description: "Worked as a Campus Manager and Organized 4+ Coding Event and 5+ Workshop on topics like Web Development, Compititive Coding and DSA.",
           color: "#196acf",
         },
         
