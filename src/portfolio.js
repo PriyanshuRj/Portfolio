@@ -49,6 +49,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
+            
           },
         },
         {
@@ -339,7 +340,7 @@ const skills = {
       ],
     },
     {
-      title: "Hosting WebSites",
+      title: "Tools and Technical Softwares",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple hosting platform",

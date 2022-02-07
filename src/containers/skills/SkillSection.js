@@ -26,7 +26,7 @@ function SkillSection(props) {
       {skills.data.map((skill, index) => {
         if (index % 2 === 0) {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={index}>
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
@@ -40,15 +40,15 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                  <SoftwareSkill logos={skill.softwareSkills} theme={theme}/>
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence,index) => {
                       return (
                         <p
                           className="subTitle skills-text"
-                          style={{ color: theme.secondaryText }}
+                          style={{ color: theme.secondaryText }} key={skillSentence + index}
                         >
                           {skillSentence}
                         </p>
@@ -69,14 +69,14 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade left duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                  <SoftwareSkill logos={skill.softwareSkills} theme={theme}/>
                 </Fade>
                 <Fade left duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
-                          className="subTitle skills-text"
+                          className="subTitle skills-text" key={index}
                           style={{ color: theme.secondaryText }}
                         >
                           {skillSentence}

@@ -1,34 +1,34 @@
 import React from "react";
 import "./SoftwareSkill.css";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import { Icon } from '@iconify/react';
-
+import { style } from "glamor";
 function SoftwareSkill(props) {
+  const theme = props.theme;
+  const styles = style({
+    color: theme.secondaryText ,
+    ":hover": {
+        
+        color:theme.text,}
+  });
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           {props.logos.map((logo) => {
             return (
-              <OverlayTrigger
-                key={logo.skillName}
-                placement={"top"}
-                overlay={
-                  <Tooltip id={`tooltip-top`}>
-                    <strong>{logo.skillName}</strong>
-                  </Tooltip>
-                }
-              >
+             
                 <li className="software-skill-inline" name={logo.skillName}>
-                <Icon icon="mdi:home" style={{ color: 'red' }} />
+                <div className="icons-div" {...styles}>
                   <span
                     className="iconify"
                     data-icon={logo.fontAwesomeClassname}
                     style={logo.style}
-                    data-inline="false"
+                    data-inline="false" 
                   ></span>
+                  <span className="icons-text" >{logo.skillName}</span>
+                  </div>
                 </li>
-              </OverlayTrigger>
+             
             );
           })}
         </ul>

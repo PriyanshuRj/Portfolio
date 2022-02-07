@@ -13,6 +13,22 @@
   margin-bottom: 20px;
   font-family: "Google Sans Regular";
 }
+.icons-div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease-in-out;
+  
+
+}
+.icons-div:hover{
+  transform: scale(1.2);
+}
+.icons-text{
+  font-size: 14px;
+  margin-top:4px;
+}
 
 .software-skill-inline > i {
   color: #868e96;

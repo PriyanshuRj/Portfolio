@@ -1,0 +1,297 @@
+
+
+.main-contactform-container {
+    /* display: flex; */
+    margin:4rem;
+    font-family: "Google Sans Regular";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: normal;
+    
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .contact-screen {
+    position: relative;
+    /* background: #3e3e3e; */
+    background: rgba(0, 0, 0, 0.1);
+
+    box-shadow: 0 8px 32px 0 rgba(90, 90, 97, 0.44);
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 15px;
+  }
+  
+  .contact-screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: -1;
+  }
+  
+  .contact-screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .contact-screen-header-left {
+    margin-right: auto;
+    height: 1rem;
+  }
+  
+  .contact-screen-header-button {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.35rem;
+    border-radius: 50%;
+    background: white;
+  }
+  
+  .contact-screen-header-button.close {
+    background: #ed1c6f;
+  }
+  
+  .contact-screen-header-button.maximize {
+    background: #e8e925;
+  }
+  
+  .contact-screen-header-button.minimize {
+    background: #74c54f;
+  }
+  
+  .contact-screen-header-right {
+    display: flex;
+  }
+  .contact-form-svg{
+    max-height: 200px;
+  }
+  .contact-screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    /* background: #999; */
+  }
+  
+  .contact-screen-body {
+    display: flex;
+  }
+  
+  .contact-screen-body-item {
+    flex: 1;
+    padding: 5rem 2rem;
+  }
+  .contact-screen-body-item-after{
+    flex: 1;
+    padding: 4rem 2rem;
+  }
+  .contact-screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .contact-screen-body-item-after.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 2.2rem;
+    font-family: "Google Sans Regular";
+  }
+  .contact-app-title-affter{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 2.2rem;
+    font-family: "Google Sans Regular";
+  }
+  .contact-lower-bound {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 2.2rem;
+    height: 4px;
+
+  }
+  
+  .contact-app-contact {
+    margin-top: auto;
+    font-size: 10px;
+    /* color: #888; */
+  }
+  
+  .contact-app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .contact-app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .contact-app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .contact-app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  .contact-app-form-control-textarea{
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    color: #ddd;
+    font-size: 16px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+  }
+  .contact-app-form-control-textarea::placeholder {
+    color: rgb(49, 49, 49);
+  }
+  .contact-app-form-control::placeholder {
+    color: rgb(49, 49, 49);
+  }
+
+
+  
+  .contact-app-form-control:focus {
+    border-bottom-color: rgb(128, 128, 128);
+  }
+  
+  .contact-app-form-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  
+
+  
+  .dribbble {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .contact-screen-body {
+      flex-direction: column;
+    }
+  
+    .contact-screen-body-item-after.left {
+      margin-bottom: 30px;
+    }
+    .contact-screen-body-item.left {
+      margin-bottom: 30px;
+    }
+
+    .contact-app-title-affter{
+      font-size: 1.5rem;
+    }
+    .contact-app-title-affter span{
+      margin-right: 12px;
+    }
+    .contact-app-title {
+      flex-direction: row;
+      font-size: 1.5rem;
+    }
+    
+    .contact-app-title span {
+      margin-right: 12px;
+    }
+  
+    .contact-lower-bound {
+      display: none;
+    }
+  }
+  .contact-general-btn {
+    text-decoration: none;
+
+
+    margin-top: 25px;
+    border-radius: 4px;
+    border-width: 0px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-family: "Google Sans Regular";
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px) {
+    .contact-app-title {
+
+      font-size: 1.5rem;
+    }
+    
+    .contact-screen-header-left{
+      height:0.75rem;
+    }
+    .contact-screen-header-button {
+      height:0.75rem;
+      width:0.75rem;
+    }
+
+    .contact-screen-body {
+      padding: 40px;
+    }
+  
+    .contact-screen-body-item {
+      padding: 0;
+
+    }
+    .contact-screen-body-item-after {
+      padding: 0;
+
+    }
+
+  }
+  @media screen and (max-width: 800px) {
+    .main-contactform-container{
+        margin-left:1rem;
+        margin-right:1rem;
+    }
+  }
+  
