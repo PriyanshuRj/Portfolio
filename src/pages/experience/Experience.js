@@ -6,7 +6,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
-
+import Skills from "../../containers/skills/Skills";
 function Experience(props) {
   const theme = props.theme;
   console.log(props.setTheme);
@@ -43,6 +43,7 @@ function Experience(props) {
         </Fade>
       </div>
       <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+      <Skills theme={props.theme} />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

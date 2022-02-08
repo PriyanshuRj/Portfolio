@@ -5,8 +5,15 @@ import './about.css';
 import { about } from "../../portfolio";
 export default function About(props) {
     const theme = props.theme;
-  return <div className="about-main-div">
-
+  return <Fade bottom duration={2000} distance="20px">
+    <h1 className="skills-header" style={{ color: theme.text }}>
+            More About Me
+          </h1>
+     <div className="about-main-div">
+              
+          
+          
+        
               <div className="about-text-div">
                 <Fade left duration={1000}>
                   <h1 className="about-heading" style={{ color: theme.accentColor[1] }}>
@@ -36,6 +43,7 @@ export default function About(props) {
                   <Coderimg theme={theme} />
                 </div>
               </Fade>
-  </div>;
+  </div>
+  </Fade>;
 }
             

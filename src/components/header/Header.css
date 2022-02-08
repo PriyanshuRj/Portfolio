@@ -67,7 +67,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #fb1056;
+  background: rgb(133, 133, 133);
   display: block;
   height: 2px;
   position: relative;
@@ -77,7 +77,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #fb1056;
+  background: rgb(133, 133, 133);
   content: "";
   display: block;
   height: 100%;

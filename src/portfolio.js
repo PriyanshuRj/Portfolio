@@ -30,7 +30,56 @@ const socialMediaLinks = {
   twitter: "https://twitter.com/PriyanshuRj01",
   instagram: "https://www.instagram.com/priyanshu_rajput_01/",
 };
-
+const skillprogress = {
+  skillprogresses : [
+    {
+      name:"Front End Developer",
+      done: "75",
+      icon:"mdi:web"
+    },
+    {
+      name:"Back End Developer",
+      done: "70",
+      icon:"whh:website"
+    },
+    {
+      name:"Machine Learning",
+      done: "80",
+      icon:"eos-icons:machine-learning"
+    },
+    {
+      name:"Deep Learning",
+      done: "60",
+      icon:"carbon:machine-learning-model"
+    },
+    {
+      name:"Data Structures",
+      done: "65",
+      icon:"carbon:data-structured"
+    },
+    {
+      name:"Graphic Designing",
+      done: "75",
+      icon:"fluent:design-ideas-16-filled"
+    },
+    {
+      name:"Video Editing",
+      done: "65",
+      icon:"bi:camera-video-fill"
+    },
+    {
+      name:"App Development",
+      done: "55",
+      icon:"ant-design:android-filled"
+    },
+    {
+      name:"Internet of Things",
+      done: "60",
+      icon:"eos-icons:iot"
+    },
+    
+  ]
+}
 const skills = {
   data: [
     {
@@ -340,7 +389,7 @@ const skills = {
       ],
     },
     {
-      title: "Tools and Technical Softwares",
+      title: "Technical Softwares",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple hosting platform",
@@ -790,4 +839,5 @@ export {
   projectsHeader,
   contactPageData,
   projects,
+  skillprogress,
 };
