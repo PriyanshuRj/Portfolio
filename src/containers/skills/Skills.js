@@ -2,7 +2,7 @@ import React, { useEffect,useState } from "react";
 import "./Skills.css";
 import SkillSection from "./SkillSection";
 import { skillprogress } from "../../portfolio";
-
+import VisibilitySensor from 'react-visibility-sensor';
 import { Fade } from "react-reveal";
 import About from "./../about/about";
 import "./progressbar.css";
@@ -28,13 +28,6 @@ export default function Skills(props) {
               <Progress done={skill.done} theme={theme} /></div>
           )
         })}
-
-
-
-
-
-
-
       </div>
       <SkillSection theme={theme} />
     </div>
@@ -43,44 +36,44 @@ export default function Skills(props) {
 const Progress = (props) => {
   const [style, setStyle] = React.useState({});
   const [stateno,setStateno] =useState(0);
+  const [visible,visiblity] =useState(false);
+
   const theme = props.theme;
   useEffect(() => {
-    const newStyle = {
-      opacity: 1,
-      width: `${props.done}%`,
-      background: `linear-gradient(to left, ${theme.accentColor[1]},${theme.accentColor[0]})`,
-      boxShadow: `0 1px 1px -2px ${theme.accentColor[1]}, 0 1px 2px ${theme.accentColor[0]}`,
-    }
-    
     let bars = document.querySelectorAll('.progress-done');
     for (let bar of bars) {
       let barbounding = bar.getBoundingClientRect();
-      if (barbounding.y > 50 && barbounding.y < 400 && stateno == 0) {
+      if (visible == true) {
         setStateno(1);
-        console.log(stateno);
-        console.log(barbounding.y);
       }
 
     }
   })
-          setTimeout(() => {
-          const newStyle = {
-            opacity: 1,
-            width: `${props.done}%`,
-            background: `linear-gradient(to left, ${theme.accentColor[1]},${theme.accentColor[0]})`,
-            boxShadow: `0 1px 1px -2px ${theme.accentColor[1]}, 0 1px 2px ${theme.accentColor[0]}`,
-          }
+  setTimeout(() => {
+  const newStyle = {
+    opacity: 1,
+    width: `${props.done}%`,
+    background: `linear-gradient(to left, ${theme.accentColor[1]},${theme.accentColor[0]})`,
+    boxShadow: `0 1px 1px -2px ${theme.accentColor[1]}, 0 1px 2px ${theme.accentColor[0]}`,
+  }
       
           setStyle(newStyle);
         }, 200);
 
 
   return (
+    <VisibilitySensor
+        onChange={(isVisible) => {
+          visiblity(isVisible)
+          console.log(visible);
+        }}
+      >
     <div className="progress">
       <div className="progress-done" style={style}>
         {props.done}%
       </div>
     </div>
+    </VisibilitySensor>
   )
 }
 // const Progress = (props) => {
