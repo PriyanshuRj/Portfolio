@@ -108,7 +108,6 @@
 
 @media (max-width: 768px) {
   .experience-card {
-    margin-bottom: 10px;
     flex-direction: column;
     text-align: center;
   }
