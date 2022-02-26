@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Priyanshu Rajput",
   subTitle:["Full Stack Developer", "Machine Learning Enthusiast","Video Editor","Graphic Designer"],
   resumeLink:
-    "https://drive.google.com/file/d/1JSu_8fHAdzwTCdMAf5pqJv_FiOj49eIC/view?usp=sharing",
+    "https://drive.google.com/file/d/1f0n8Azqek8PwRvUM49hkfa_WLuZDj3MS/view?usp=sharing",
   mail: "mailto:oriyanshu011109@gmail.com",
 };
 
