@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function BlogsImg(props) {
   const theme = props.theme;
@@ -35,13 +35,7 @@ export default function BlogsImg(props) {
         transform="translate(-69.5 -78.57247)"
         fill={theme.imageDark}
       />
-      <ellipse
-        cx="752.96319"
-        cy="688.14768"
-        rx="113.08238"
-        ry="26.20202"
-        opacity="0.1"
-      />
+      <ellipse cx="752.96319" cy="688.14768" rx="113.08238" ry="26.20202" opacity="0.1" />
       <path
         d="M1107.47,769.93754c0,10.11-29.37988,19.55-80.13995,27.5-38.38-4.19-64.95-13.24-64.95-23.72,0-13.05,41.16-23.87,95.02991-25.87C1089.51,754.53751,1107.47,762.0275,1107.47,769.93754Z"
         transform="translate(-69.5 -78.57247)"
@@ -52,12 +46,7 @@ export default function BlogsImg(props) {
         transform="translate(-69.5 -78.57247)"
         opacity="0.1"
       />
-      <rect
-        x="56.08151"
-        width="456.00701"
-        height="683.09115"
-        fill={theme.imageDark}
-      />
+      <rect x="56.08151" width="456.00701" height="683.09115" fill={theme.imageDark} />
       <rect
         x="83.66258"
         y="237.1972"
@@ -107,13 +96,7 @@ export default function BlogsImg(props) {
         height="9.19369"
         fill={theme.accentColor[0]}
       />
-      <rect
-        x="86.42068"
-        y="77.22699"
-        width="94.695"
-        height="34.01665"
-        fill={theme.secondaryText}
-      />
+      <rect x="86.42068" y="77.22699" width="94.695" height="34.01665" fill={theme.secondaryText} />
       <rect
         x="109.86459"
         y="136.98598"
@@ -207,12 +190,7 @@ export default function BlogsImg(props) {
         transform="translate(-69.5 -78.57247)"
         fill={theme.imageDark}
       />
-      <circle
-        cx="739.60342"
-        cy="110.33089"
-        r="38.98859"
-        fill={theme.skinColor}
-      />
+      <circle cx="739.60342" cy="110.33089" r="38.98859" fill={theme.skinColor} />
       <path
         d="M848.092,230.25489s-23.62945,5.90736-33.08122,20.085l-8.27031,1.77221v8.2703s-15.35914,49.0311-11.81472,70.2976,0,62.618-5.90737,73.842-7.67957,13.58693-4.72588,18.31282,7.08883,20.67577,4.13515,27.7646,0,14.17767,27.17386,15.94988,65.57171,1.77221,65.57171-7.67957-2.36294-36.03491,0-43.12374,3.54442-11.81472,2.36295-18.31282,2.36294-79.15864,2.36294-79.15864S886.48986,245.614,848.092,230.25489Z"
         transform="translate(-69.5 -78.57247)"

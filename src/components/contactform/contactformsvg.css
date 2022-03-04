@@ -1,11 +1,18 @@
-.contactform-main-svg{
-    max-height: 450px;
-
+.contactform-main-svg {
+  max-height: 450px;
 }
-.cls-1{fill:#37474f;}
-.cls-2{fill:#263238;}
-.cls-3{fill:#455a64;}
-.cls-4{fill:#fafafa;}
+.cls-1 {
+  fill: #37474f;
+}
+.cls-2 {
+  fill: #263238;
+}
+.cls-3 {
+  fill: #455a64;
+}
+.cls-4 {
+  fill: #fafafa;
+}
 
 .cls-12,
 .cls-14,
@@ -13,21 +20,49 @@
 .cls-16,
 .cls-19,
 .cls-22,
-.cls-6{fill:#fff;}
+.cls-6 {
+  fill: #fff;
+}
 .cls-20,
-.cls-6{opacity:0.3;}
-.cls-7{opacity:0.15;}
-.cls-8{opacity:0.2;}
-.cls-9{fill:#f28f8f;}
-.cls-10{fill:#e0e0e0;}
-.cls-11{opacity:0.1;}
-.cls-12{opacity:0.35;}
-.cls-13{opacity:0.05;}
-.cls-14{opacity:0.95;}
-.cls-15{opacity:0.8;}
+.cls-6 {
+  opacity: 0.3;
+}
+.cls-7 {
+  opacity: 0.15;
+}
+.cls-8 {
+  opacity: 0.2;
+}
+.cls-9 {
+  fill: #f28f8f;
+}
+.cls-10 {
+  fill: #e0e0e0;
+}
+.cls-11 {
+  opacity: 0.1;
+}
+.cls-12 {
+  opacity: 0.35;
+}
+.cls-13 {
+  opacity: 0.05;
+}
+.cls-14 {
+  opacity: 0.95;
+}
+.cls-15 {
+  opacity: 0.8;
+}
 .cls-16,
-.cls-23{opacity:0.7;}
+.cls-23 {
+  opacity: 0.7;
+}
 
-.cls-18{fill:#b16668;}
+.cls-18 {
+  fill: #b16668;
+}
 .cls-19,
-.cls-21{opacity:0.4;}
+.cls-21 {
+  opacity: 0.4;
+}

@@ -1,5 +1,5 @@
-import React from "react";
-import "./FeelingProud.css";
+import React from 'react';
+import './FeelingProud.css';
 
 function FeelingProud(props) {
   const theme = props.theme;
@@ -51,14 +51,7 @@ function FeelingProud(props) {
       </g>
       <g id="head">
         <g id="ccc">
-          <rect
-            id="rect15"
-            height="47"
-            width="27"
-            fill={theme.skinColor}
-            y="147.5"
-            x="105.5"
-          />
+          <rect id="rect15" height="47" width="27" fill={theme.skinColor} y="147.5" x="105.5" />
         </g>
         <path
           id="path18"
@@ -98,10 +91,7 @@ function FeelingProud(props) {
           </g>
         </g>
         <g id="g43" opacity="0.1">
-          <path
-            id="path41"
-            d="M104.6,156.7l27.9,1.1v2.2c0,0-20,6-27,3.4v-5.6L104.6,156.7z"
-          />
+          <path id="path41" d="M104.6,156.7l27.9,1.1v2.2c0,0-20,6-27,3.4v-5.6L104.6,156.7z" />
         </g>
         <g id="chin">
           <path
@@ -287,13 +277,7 @@ function FeelingProud(props) {
             />
           </g>
           <g id="g153">
-            <circle
-              id="circle151"
-              r="2.2"
-              cy="194.2"
-              cx="121.6"
-              fill="#BCBCBC"
-            />
+            <circle id="circle151" r="2.2" cy="194.2" cx="121.6" fill="#BCBCBC" />
           </g>
           <g id="g157">
             <circle id="circle155" r="2" cy="202.3" cx="121.7" fill="#BCBCBC" />
@@ -419,10 +403,7 @@ function FeelingProud(props) {
           />
         </g>
         <g id="g218" opacity="0.1">
-          <polygon
-            id="polygon216"
-            points="135.8,341 132.4,341.2 134.8,330.6 136,330.5   "
-          />
+          <polygon id="polygon216" points="135.8,341 132.4,341.2 134.8,330.6 136,330.5   " />
         </g>
         <g id="g222">
           <path
@@ -446,10 +427,7 @@ function FeelingProud(props) {
           />
         </g>
         <g id="g234" opacity="0.1">
-          <polygon
-            id="polygon232"
-            points="150.4,357.3 145.7,357.4 146.8,348 149.4,351.4   "
-          />
+          <polygon id="polygon232" points="150.4,357.3 145.7,357.4 146.8,348 149.4,351.4   " />
         </g>
         <g id="g238">
           <polygon

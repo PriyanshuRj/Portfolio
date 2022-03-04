@@ -1,13 +1,35 @@
-.st0{fill:none;}
-.st1{fill:#ED4C60;}
-.st4{fill:#E0E0E0;}
-.st5{fill:#EBEBEB;}
-.st6{fill:#FFFFFF;}
+.st0 {
+  fill: none;
+}
+.st1 {
+  fill: #ed4c60;
+}
+.st4 {
+  fill: #e0e0e0;
+}
+.st5 {
+  fill: #ebebeb;
+}
+.st6 {
+  fill: #ffffff;
+}
 /* .st7{fill:#263238;} */
 /* .st8{fill:#E8505B;} */
-.st9{fill:#455A64;}
-.st10{fill:#FAFAFA;}
-.st11{fill:#FFBE9D;}
-.st12{opacity:0.6;}
-.st13{opacity:0.3;}
-.st14{fill:#EB996E;}
+.st9 {
+  fill: #455a64;
+}
+.st10 {
+  fill: #fafafa;
+}
+.st11 {
+  fill: #ffbe9d;
+}
+.st12 {
+  opacity: 0.6;
+}
+.st13 {
+  opacity: 0.3;
+}
+.st14 {
+  fill: #eb996e;
+}

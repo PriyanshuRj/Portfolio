@@ -1,14 +1,14 @@
-import React from "react";
-import "./SoftwareSkill.css";
+import React from 'react';
+import './SoftwareSkill.css';
 import { Icon } from '@iconify/react';
-import { style } from "glamor";
+import { style } from 'glamor';
 function SoftwareSkill(props) {
   const theme = props.theme;
   const styles = style({
-    color: theme.secondaryText ,
-    ":hover": {
-        
-        color:theme.text,}
+    color: theme.secondaryText,
+    ':hover': {
+      color: theme.text
+    }
   });
   return (
     <div>
@@ -16,19 +16,17 @@ function SoftwareSkill(props) {
         <ul className="dev-icons">
           {props.logos.map((logo) => {
             return (
-             
-                <li className="software-skill-inline" name={logo.skillName}>
+              <li className="software-skill-inline" name={logo.skillName}>
                 <div className="icons-div" {...styles}>
                   <span
                     className="iconify"
                     data-icon={logo.fontAwesomeClassname}
                     style={logo.style}
-                    data-inline="false" 
+                    data-inline="false"
                   ></span>
-                  <span className="icons-text" >{logo.skillName}</span>
-                  </div>
-                </li>
-             
+                  <span className="icons-text">{logo.skillName}</span>
+                </div>
+              </li>
             );
           })}
         </ul>

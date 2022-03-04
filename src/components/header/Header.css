@@ -35,7 +35,7 @@
 }
 
 .header .logo-name {
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   font-weight: bold;
   padding: 0 10px;
   letter-spacing: 3px;
@@ -45,7 +45,7 @@
 /* menu */
 
 .menu {
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
 }
 
 .header .menu {
@@ -78,7 +78,7 @@
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: rgb(133, 133, 133);
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   position: absolute;
@@ -186,14 +186,11 @@
 @media (min-width: 48em) {
   .header li {
     float: left;
-
-    
   }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
   .header .menu {
     max-height: none;
@@ -211,7 +208,6 @@
     text-decoration: none;
     margin-top: 15px;
     line-height: normal;
-    
   }
 
   .header {
@@ -221,8 +217,7 @@
 }
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
-    font-size: 12px;    
+    font-size: 12px;
     margin: auto;
-
   }
 }

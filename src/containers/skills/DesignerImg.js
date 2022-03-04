@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function CloudInfraImg(props) {
   const theme = props.theme;
@@ -59,13 +59,7 @@ export default function CloudInfraImg(props) {
         />
       </g>
       <rect y="625.16" width="645.61" height="21.88" fill={theme.imageDark} />
-      <rect
-        x="27.36"
-        y="647.05"
-        width="590.89"
-        height="8.95"
-        fill={theme.imageDark}
-      />
+      <rect x="27.36" y="647.05" width="590.89" height="8.95" fill={theme.imageDark} />
       <rect x="27.36" y="647.05" width="590.89" height="2.98" opacity="0.1" />
       <path
         d="M361,747.61s86.63-.34,116.09-.34,116.09.34,116.09.34V735H361Z"
@@ -103,20 +97,8 @@ export default function CloudInfraImg(props) {
         transform="translate(-167.6 -120.78)"
         fill={theme.dark}
       />
-      <ellipse
-        cx="424.33"
-        cy="217.64"
-        rx="10.1"
-        ry="18.93"
-        fill={theme.skinColor}
-      />
-      <ellipse
-        cx="194.67"
-        cy="217.64"
-        rx="10.1"
-        ry="18.93"
-        fill={theme.skinColor}
-      />
+      <ellipse cx="424.33" cy="217.64" rx="10.1" ry="18.93" fill={theme.skinColor} />
+      <ellipse cx="194.67" cy="217.64" rx="10.1" ry="18.93" fill={theme.skinColor} />
       <path
         d="M504.39,473.27S651.23,450.4,620.95,677.54l-17.66,65.11-50.48-2s32.81-75.71,12.62-126.19S504.39,473.27,504.39,473.27Z"
         transform="translate(-167.6 -120.78)"

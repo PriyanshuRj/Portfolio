@@ -1,56 +1,49 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: 'Agustina Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assests/fonts/Agustina.woff") format("woff");
-    font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assests/fonts/Montserrat-Regular.ttf") format("woff");
+  src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
   font-display: swap;
 }
 @font-face {
-  font-family: "Google Sans Bold";
-  src: local("Google Sans Bold"),
-    url("./assests/fonts/GoogleSans-Bold.ttf") format("woff");
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('./assests/fonts/Montserrat-Regular.ttf') format('woff');
   font-display: swap;
 }
 @font-face {
-  font-family: "Google Sans Bold Italic";
-  src: local("Google Sans Bold Italic"),
-    url("./assests/fonts/GoogleSans-BoldItalic.ttf") format("woff");
-    font-display: swap;
-}
-@font-face {
-  font-family: "Google Sans Italic";
-  src: local("Google Sans Italic"),
-    url("./assests/fonts/GoogleSans-Italic.ttf") format("woff");
-    font-display: swap;
-}
-@font-face {
-  font-family: "Google Sans Medium";
-  src: local("Google Sans Medium"),
-    url("./assests/fonts/GoogleSans-Medium.ttf") format("woff");
-    font-display: swap;
-}
-@font-face {
-  font-family: "Google Sans Medium Italic";
-  src: local("Google Sans Medium Italic"),
-    url("./assests/fonts/GoogleSans-MediumItalic.ttf") format("woff");
+  font-family: 'Google Sans Bold';
+  src: local('Google Sans Bold'), url('./assests/fonts/GoogleSans-Bold.ttf') format('woff');
   font-display: swap;
 }
 @font-face {
-  font-family: "Google Sans Regular";
-  src: local("Google Sans Regular"),
-    url("./assests/fonts/GoogleSans-Regular.ttf") format("woff");
+  font-family: 'Google Sans Bold Italic';
+  src: local('Google Sans Bold Italic'),
+    url('./assests/fonts/GoogleSans-BoldItalic.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans Italic';
+  src: local('Google Sans Italic'), url('./assests/fonts/GoogleSans-Italic.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans Medium';
+  src: local('Google Sans Medium'), url('./assests/fonts/GoogleSans-Medium.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans Medium Italic';
+  src: local('Google Sans Medium Italic'),
+    url('./assests/fonts/GoogleSans-MediumItalic.ttf') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans Regular';
+  src: local('Google Sans Regular'), url('./assests/fonts/GoogleSans-Regular.ttf') format('woff');
   font-display: swap;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 html,
 body {
@@ -58,7 +51,7 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px Montserrat, 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -72,17 +65,16 @@ body {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: rgba( 255, 255, 255, 0.4 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 3.5px );
-  -webkit-backdrop-filter: blur( 3.5px );
-
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba( 255, 255, 255, 0.4 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 3.5px );
-  -webkit-backdrop-filter: blur( 3.5px );
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
 }
 /* Media Query */
 @media (max-width: 1380px) {

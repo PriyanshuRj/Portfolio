@@ -1,73 +1,69 @@
-
-.Progressbardiv{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Google Sans Regular";
-
+.Progressbardiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Google Sans Regular';
 }
 
-.progress-innerdiv{
-    width: 42%;
-    margin:2rem;
-    transition: .2s ease-in-out;
+.progress-innerdiv {
+  width: 42%;
+  margin: 2rem;
+  transition: 0.2s ease-in-out;
 }
-.progress-innerdiv:hover{
-    transform: scale(1.2);
+.progress-innerdiv:hover {
+  transform: scale(1.2);
 }
 .progress {
-	background-color: rgba(206, 202, 202,0.4);
-	border-radius: 60px;
-	position: relative;
-	margin: 15px 0;
-	height: 40px;
+  background-color: rgba(206, 202, 202, 0.4);
+  border-radius: 60px;
+  position: relative;
+  margin: 15px 0;
+  height: 40px;
 }
-.progress-header-bar{
-    display: flex;
-    justify-items: flex-start;
-    align-items:center;
-    font-size: 28px;
+.progress-header-bar {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  font-size: 28px;
 }
 .progress-header-bar h4 {
-    margin:0;
+  margin: 0;
 }
-.progress-header-bar svg{
-    height:32px;
-    width: 32px;
-    margin-right:1rem;
+.progress-header-bar svg {
+  height: 32px;
+  width: 32px;
+  margin-right: 1rem;
 }
 .progress-done {
-	border-radius: 60px;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 0;
-	opacity: 0; 
-	transition: 1s ease 0.3s;
+  border-radius: 60px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
 }
 @media (max-width: 1000px) {
-    .progress {
-        height: 30px;
-        
-    }
-    .progress-innerdiv{
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .progress {
+    height: 30px;
+  }
+  .progress-innerdiv {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 @media (max-width: 768px) {
-    .progress {
-        
-        border-radius: 40px;
-        height: 34px;
-    }
-    .progress-innerdiv{
-        width: 100%;
-    }
-    .progress-innerdiv:hover{
-        transform: scale(1.1);
-    }
+  .progress {
+    border-radius: 40px;
+    height: 34px;
+  }
+  .progress-innerdiv {
+    width: 100%;
+  }
+  .progress-innerdiv:hover {
+    transform: scale(1.1);
+  }
 }

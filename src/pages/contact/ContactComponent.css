@@ -75,17 +75,16 @@
 .contact-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: 'Google Sans Medium';
   line-height: 1.1;
   text-align: center;
-  margin-top:0px;
-
+  margin-top: 0px;
 }
 
 .blog-heading-text {
   font-size: 56px;
   font-weight: 400;
-  font-family: "Google Sans Medium";
+  font-family: 'Google Sans Medium';
   line-height: 1.1;
   text-align: center;
   margin-top: 40px;
@@ -93,7 +92,7 @@
 
 .address-heading-text {
   font-size: 30px;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   text-align: center;
   margin-bottom: 10px;
 }
@@ -104,7 +103,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: 'Google Sans Medium';
 }
 
 .blog-header-detail-text {
@@ -113,7 +112,7 @@
   margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
-  font-family: "Google Sans Medium";
+  font-family: 'Google Sans Medium';
 }
 
 .general-btn-div {
@@ -145,19 +144,18 @@
   width: 200px;
   height: 50px;
   font-weight: bold;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   font-size: 17px;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-.contact-button-container{
-  margin-top:1rem;
+.contact-button-container {
+  margin-top: 1rem;
   display: flex;
   width: auto;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-   
 }
 @media (max-width: 1380px) {
   .contact-heading-text {
@@ -229,7 +227,7 @@
     text-align: center;
   }
 }
-.blogs-btn{
+.blogs-btn {
   margin-left: 8px;
   margin-right: 8px;
 }

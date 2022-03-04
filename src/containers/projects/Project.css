@@ -4,12 +4,10 @@
   line-height: normal;
 }
 
-.startup-project-text img{
+.startup-project-text img {
   max-width: 100%;
   height: auto;
 }
-
-
 
 /* Media Query */
 @media (max-width: 1380px) {
@@ -22,5 +20,4 @@
     font-size: 30px;
     text-align: center;
   }
-
 }

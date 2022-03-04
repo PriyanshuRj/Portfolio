@@ -1,13 +1,13 @@
-import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
-import { Fade } from "react-reveal";
-import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
-import { style } from "glamor";
-import ContactForm from "../../components/contactform/contactform";
+import React from 'react';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import SocialMedia from '../../components/socialMedia/SocialMedia';
+import BlogsImg from './BlogsImg';
+import { Fade } from 'react-reveal';
+import './ContactComponent.css';
+import { greeting, contactPageData } from '../../portfolio.js';
+import { style } from 'glamor';
+import ContactForm from '../../components/contactform/contactform';
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 
@@ -16,9 +16,9 @@ function Contact(props) {
 
   const styles = style({
     backgroundColor: `${theme.accentColor[1]}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentColor[1]}`,
-    },
+    ':hover': {
+      boxShadow: `0 5px 15px ${theme.accentColor[1]}`
+    }
   });
 
   return (
@@ -30,32 +30,32 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(`../../assests/images/${ContactData['profile_image_path']}`)}
                 alt=""
               />
             </div>
             <div className="contact-heading-text-div">
-              <h1
-                className="contact-heading-text"
-                style={{ color: theme.text,marginTop:0 }}
-              >
-                {ContactData["title"]}
+              <h1 className="contact-heading-text" style={{ color: theme.text, marginTop: 0 }}>
+                {ContactData['title']}
               </h1>
               <p
                 className="contact-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {ContactData["description"]}
+                {ContactData['description']}
               </p>
               <SocialMedia />
               <div className="contact-button-container">
-               
-              <a {...styles} target="_blank" rel="noopener noreferrer" className="button" href={greeting.resumeLink}>
-                See my Resume
-              </a>
-                
+                <a
+                  {...styles}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button"
+                  href={greeting.resumeLink}
+                >
+                  See my Resume
+                </a>
               </div>
-              
             </div>
           </div>
         </Fade>
@@ -63,19 +63,31 @@ function Contact(props) {
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                {blogSection["title"]}
+                {blogSection['title']}
               </h1>
               <p
                 className="blog-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {blogSection["subtitle"]}
+                {blogSection['subtitle']}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn blogs-btn" href={blogSection.twiter_link} target="_blank" rel="noopener noreferrer">
+                <a
+                  {...styles}
+                  className="general-btn blogs-btn"
+                  href={blogSection.twiter_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   My Twitter Profile
                 </a>
-                <a {...styles} className="general-btn blogs-btn" href={blogSection.medium_link} target="_blank" rel="noopener noreferrer">
+                <a
+                  {...styles}
+                  className="general-btn blogs-btn"
+                  href={blogSection.medium_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   My Medium Profile
                 </a>
               </div>
@@ -85,9 +97,9 @@ function Contact(props) {
             </div>
           </div>
         </Fade>
-        <ContactForm  theme={theme}/>
+        <ContactForm theme={theme} />
       </div>
-      <Footer theme={props.theme} onToggle={props.onToggle}/>
+      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }

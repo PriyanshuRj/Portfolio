@@ -1,12 +1,12 @@
-import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
-import "./Experience.css";
-import { experience } from "../../portfolio.js";
-import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg";
-import Skills from "../../containers/skills/Skills";
+import React from 'react';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import ExperienceAccordion from '../../containers/experienceAccordion/ExperienceAccordion.js';
+import './Experience.css';
+import { experience } from '../../portfolio.js';
+import { Fade } from 'react-reveal';
+import ExperienceImg from './ExperienceImg';
+import Skills from '../../containers/skills/Skills';
 function Experience(props) {
   const theme = props.theme;
   console.log(props.setTheme);
@@ -20,29 +20,23 @@ function Experience(props) {
               <ExperienceImg theme={theme} />
             </div>
             <div className="experience-heading-text-div">
-              <h1
-                className="experience-heading-text"
-                style={{ color: theme.text }}
-              >
+              <h1 className="experience-heading-text" style={{ color: theme.text }}>
                 {experience.title}
               </h1>
-              <h3
-                className="experience-heading-sub-text"
-                style={{ color: theme.text }}
-              >
-                {experience["subtitle"]}
+              <h3 className="experience-heading-sub-text" style={{ color: theme.text }}>
+                {experience['subtitle']}
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {experience["description"]}
+                {experience['description']}
               </p>
             </div>
           </div>
         </Fade>
       </div>
-      <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+      <ExperienceAccordion sections={experience['sections']} theme={theme} />
       <Skills theme={props.theme} />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>

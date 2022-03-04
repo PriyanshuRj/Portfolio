@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function ExperienceImg(props) {
   const theme = props.theme;
@@ -228,23 +228,13 @@ export default function ExperienceImg(props) {
         fill={theme.accentColor[0]}
         opacity="0.1"
       />
-      <ellipse
-        cx="547"
-        cy="660.5"
-        rx="547"
-        ry="99.5"
-        fill={theme.accentColor[0]}
-        opacity="0.1"
-      />
+      <ellipse cx="547" cy="660.5" rx="547" ry="99.5" fill={theme.accentColor[0]} opacity="0.1" />
       <polygon
         points="240 321 194 603 402 581 393 557 500 230.5 570.5 268.5 320.5 240 321"
         fill="#292929"
       />
       <polygon points="186 1 466 0 547 613 266 651 186 1" fill="#292929" />
-      <polygon
-        points="216.5 24.5 442.5 24.5 521.5 594.5 288.5 626.5 216.5 24.5"
-        fill="#fff"
-      />
+      <polygon points="216.5 24.5 442.5 24.5 521.5 594.5 288.5 626.5 216.5 24.5" fill="#fff" />
       <path
         d="M482.64,638.86c1.42,2.72,2.48,5.66,4.33,8.11,5.4,7.22,15.65,8.35,23.34,13.06a2.15,2.15,0,0,1,.91.88c.35.83-.43,1.7-1.18,2.22-5.83,4.09-13.48,4.18-20.61,4.13a27.49,27.49,0,0,1-7.13-.68c-3.77-1-7-3.63-10.72-4.7a28.44,28.44,0,0,0-5.89-.83l-7.81-.53a18.41,18.41,0,0,1-6.09-1.13,6.16,6.16,0,0,1-3.84-4.55c-.22-1.66.49-3.27.91-4.89,1-3.84.69-8.48,3.68-11.1a11.35,11.35,0,0,1,4.15-2,132.39,132.39,0,0,1,16.61-4.42C477.93,631.52,480.59,634.92,482.64,638.86Z"
         transform="translate(-53 -70)"

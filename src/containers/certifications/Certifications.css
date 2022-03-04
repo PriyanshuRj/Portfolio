@@ -1,7 +1,7 @@
 .certs-header {
   font-size: 40px;
   line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   text-align: center;
 }
 
@@ -19,7 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: auto;;
+  margin: auto;
 }
 .certi-cards-div-main {
   margin-top: 60px;

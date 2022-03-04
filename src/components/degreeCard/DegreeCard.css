@@ -6,13 +6,13 @@
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
+  font-family: 'Google Sans Medium';
   font-size: 23px;
   margin-left: 10px;
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
+  font-family: 'Google Sans Medium';
   font-size: 18px;
   margin-top: 7px;
   margin-bottom: 5px;
@@ -35,7 +35,7 @@
   width: 20%;
 }
 .duration {
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   font-size: 16px;
   padding-right: 10px;
   float: right;
@@ -52,7 +52,7 @@
 .content-list {
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
 }
 
 @media (max-width: 768px) {

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function FullStackImg(props) {
   const theme = props.theme;
@@ -76,12 +76,7 @@ export default function FullStackImg(props) {
         transform="translate(-61.96814 -72.38605)"
         opacity="0.1"
       />
-      <circle
-        cx="196.04888"
-        cy="357.07618"
-        r="59.20939"
-        fill={theme.skinColor}
-      />
+      <circle cx="196.04888" cy="357.07618" r="59.20939" fill={theme.skinColor} />
       <path
         d="M254.06973,482.0928s-19.73647,34.20987-23.68376,52.63057-59.20939-36.8414-59.20939-36.8414l-7.2367-19.07858s51.97268-24.34164,48.02539-44.07811S254.06973,482.0928,254.06973,482.0928Z"
         transform="translate(-61.96814 -72.38605)"
@@ -138,13 +133,7 @@ export default function FullStackImg(props) {
         transform="translate(-61.96814 -72.38605)"
         fill="#3f3d56"
       />
-      <rect
-        x="401.3211"
-        y="24.33804"
-        width="673.9403"
-        height="1.60462"
-        fill="#3f3d56"
-      />
+      <rect x="401.3211" y="24.33804" width="673.9403" height="1.60462" fill="#3f3d56" />
       <path
         d="M480.13775,91.64149a6.41848,6.41848,0,1,1,6.41848-6.41848A6.42592,6.42592,0,0,1,480.13775,91.64149Zm0-11.23234a4.81386,4.81386,0,1,0,4.81386,4.81386A4.81945,4.81945,0,0,0,480.13775,80.40915Z"
         transform="translate(-61.96814 -72.38605)"
@@ -160,51 +149,21 @@ export default function FullStackImg(props) {
         transform="translate(-61.96814 -72.38605)"
         fill="#3f3d56"
       />
-      <rect
-        x="612.10922"
-        y="25.14035"
-        width="1.60462"
-        height="414.34565"
-        fill="#3f3d56"
-      />
-      <rect
-        x="688.73293"
-        y="228.85889"
-        width="117.93955"
-        height="16.0462"
-        fill="#f2f2f2"
-      />
-      <rect
-        x="874.06652"
-        y="228.85889"
-        width="117.93955"
-        height="16.0462"
-        fill="#f2f2f2"
-      />
+      <rect x="612.10922" y="25.14035" width="1.60462" height="414.34565" fill="#3f3d56" />
+      <rect x="688.73293" y="228.85889" width="117.93955" height="16.0462" fill="#f2f2f2" />
+      <rect x="874.06652" y="228.85889" width="117.93955" height="16.0462" fill="#f2f2f2" />
       <path
         d="M875.86143,310.07035H756.31726V292.41953H875.86143Zm-117.93955-1.60462H874.25681V294.02415H757.92188Z"
         transform="translate(-61.96814 -72.38605)"
         fill="#3f3d56"
       />
-      <rect
-        x="688.73293"
-        y="353.21693"
-        width="117.93955"
-        height="16.0462"
-        fill="#f2f2f2"
-      />
+      <rect x="688.73293" y="353.21693" width="117.93955" height="16.0462" fill="#f2f2f2" />
       <path
         d="M875.86143,434.42838H756.31726V416.77757H875.86143Zm-117.93955-1.60462H874.25681V418.38219H757.92188Z"
         transform="translate(-61.96814 -72.38605)"
         fill="#3f3d56"
       />
-      <rect
-        x="689.13409"
-        y="289.43329"
-        width="303.27314"
-        height="16.0462"
-        fill="#f2f2f2"
-      />
+      <rect x="689.13409" y="289.43329" width="303.27314" height="16.0462" fill="#f2f2f2" />
       <path
         d="M1061.59617,372.24937H756.71841V354.59855h304.87776ZM758.323,370.64475h301.66852V356.20317H758.323Z"
         transform="translate(-61.96814 -72.38605)"

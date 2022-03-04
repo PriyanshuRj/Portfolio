@@ -1,11 +1,11 @@
-import React from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import Educations from "../../containers/education/Educations";
-import Certifications from "../../containers/certifications/Certifications";
-import EducationImg from "./EducationImg";
-import "./EducationComponent.css";
-import { Fade } from "react-reveal";
+import React from 'react';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
+import Educations from '../../containers/education/Educations';
+import Certifications from '../../containers/certifications/Certifications';
+import EducationImg from './EducationImg';
+import './EducationComponent.css';
+import { Fade } from 'react-reveal';
 
 function Education(props) {
   const theme = props.theme;
@@ -29,8 +29,8 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I actively participate in hackathons and other tech-related activities. Below are
+                some of my major certifications.
               </p>
             </div>
           </div>

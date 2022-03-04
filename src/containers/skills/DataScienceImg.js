@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function DataScienceImg(props) {
   const theme = props.theme;
@@ -12,13 +12,7 @@ export default function DataScienceImg(props) {
       viewBox="0 0 1120 829.80067"
     >
       <title></title>
-      <ellipse
-        cx="975.57906"
-        cy="811.05902"
-        rx="144.42094"
-        ry="18.74165"
-        fill={theme.imageDark}
-      />
+      <ellipse cx="975.57906" cy="811.05902" rx="144.42094" ry="18.74165" fill={theme.imageDark} />
       <rect y="27.5" width="436" height="272" fill={theme.imageDark} />
       <rect
         x="27.5"
@@ -62,48 +56,12 @@ export default function DataScienceImg(props) {
         strokeMiterlimit="10"
         strokeWidth="2"
       />
-      <rect
-        x="175"
-        y="621.81429"
-        width="13.37143"
-        height="13.37143"
-        fill={theme.accentColor[0]}
-      />
-      <rect
-        x="194.31429"
-        y="621.81429"
-        width="13.37143"
-        height="13.37143"
-        fill={theme.text}
-      />
-      <rect
-        x="213.62857"
-        y="621.81429"
-        width="13.37143"
-        height="13.37143"
-        fill="#FE9800"
-      />
-      <rect
-        x="325"
-        y="627.62162"
-        width="52"
-        height="2.10811"
-        fill={theme.text}
-      />
-      <rect
-        x="325"
-        y="633.94595"
-        width="52"
-        height="2.10811"
-        fill={theme.text}
-      />
-      <rect
-        x="325"
-        y="640.27027"
-        width="52"
-        height="2.10811"
-        fill={theme.text}
-      />
+      <rect x="175" y="621.81429" width="13.37143" height="13.37143" fill={theme.accentColor[0]} />
+      <rect x="194.31429" y="621.81429" width="13.37143" height="13.37143" fill={theme.text} />
+      <rect x="213.62857" y="621.81429" width="13.37143" height="13.37143" fill="#FE9800" />
+      <rect x="325" y="627.62162" width="52" height="2.10811" fill={theme.text} />
+      <rect x="325" y="633.94595" width="52" height="2.10811" fill={theme.text} />
+      <rect x="325" y="640.27027" width="52" height="2.10811" fill={theme.text} />
       <path
         d="M326,463.09967v22a66,66,0,0,1,46.66907,112.66906l15.55633,15.55634A88,88,0,0,0,326,463.09967Z"
         transform="translate(-40 -34.59967)"
@@ -167,12 +125,7 @@ export default function DataScienceImg(props) {
         transform="translate(-40 -34.59967)"
         fill={theme.imageClothes}
       />
-      <circle
-        cx="904.51974"
-        cy="136.03869"
-        r="36.13958"
-        fill={theme.skinColor}
-      />
+      <circle cx="904.51974" cy="136.03869" r="36.13958" fill={theme.skinColor} />
       <path
         d="M980.95077,226.305s-19.81848,20.98427-34.39089,17.48689-22.15006-28.56192-22.15006-28.56192l-26.23034-4.66318s-18.65269,82.7713-18.65269,90.93185,18.65269,96.17791,18.65269,111.91611-15.15531,25.06455,8.16055,24.48165,12.24082-8.16055,46.04882-8.74344,39.05406,6.99475,46.04881-5.24607a97.52308,97.52308,0,0,1,17.4869-21.56717l-12.24083-43.13434L1001.935,237.38s-14.94433-29.14482-21.75313-26.81324C980.18191,210.56676,983.86525,223.39049,980.95077,226.305Z"
         transform="translate(-40 -34.59967)"
@@ -223,55 +176,13 @@ export default function DataScienceImg(props) {
       />
       <rect x="567" y="362.5" width="45" height="72" fill="#FE9800" />
       <rect x="632" y="313.5" width="45" height="121" fill={theme.text} />
-      <rect
-        x="697"
-        y="256.5"
-        width="45"
-        height="178"
-        fill={theme.accentColor[0]}
-      />
-      <rect
-        x="553"
-        y="451.81429"
-        width="13.37143"
-        height="13.37143"
-        fill={theme.accentColor[0]}
-      />
-      <rect
-        x="572.31429"
-        y="451.81429"
-        width="13.37143"
-        height="13.37143"
-        fill={theme.text}
-      />
-      <rect
-        x="591.62857"
-        y="451.81429"
-        width="13.37143"
-        height="13.37143"
-        fill="#FE9800"
-      />
-      <rect
-        x="703"
-        y="457.62162"
-        width="52"
-        height="2.10811"
-        fill={theme.text}
-      />
-      <rect
-        x="703"
-        y="463.94595"
-        width="52"
-        height="2.10811"
-        fill={theme.text}
-      />
-      <rect
-        x="703"
-        y="470.27027"
-        width="52"
-        height="2.10811"
-        fill={theme.text}
-      />
+      <rect x="697" y="256.5" width="45" height="178" fill={theme.accentColor[0]} />
+      <rect x="553" y="451.81429" width="13.37143" height="13.37143" fill={theme.accentColor[0]} />
+      <rect x="572.31429" y="451.81429" width="13.37143" height="13.37143" fill={theme.text} />
+      <rect x="591.62857" y="451.81429" width="13.37143" height="13.37143" fill="#FE9800" />
+      <rect x="703" y="457.62162" width="52" height="2.10811" fill={theme.text} />
+      <rect x="703" y="463.94595" width="52" height="2.10811" fill={theme.text} />
+      <rect x="703" y="470.27027" width="52" height="2.10811" fill={theme.text} />
       <path
         d="M764.3076,212.28192c10.62848.46211,18.52575,10.10069,17.376,20.67691-1.04159,9.58175-4.884,21.50465-16.98745,26.08434-21.56716,8.16055-20.40137-37.88827-16.3211-39.637C751.09528,218.24042,755.36985,211.89333,764.3076,212.28192Z"
         transform="translate(-40 -34.59967)"

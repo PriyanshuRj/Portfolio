@@ -1,6 +1,6 @@
-import React from "react";
-import "./ProjectLanguages.css";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import React from 'react';
+import './ProjectLanguages.css';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { Icon, InlineIcon } from '@iconify/react';
 function ProjectLanguages(props) {
   return (
@@ -9,20 +9,16 @@ function ProjectLanguages(props) {
         <ul className="dev-icons-languages">
           {props.logos.map((logo) => {
             return (
-             
-                <OverlayTrigger 
+              <OverlayTrigger
                 key={logo.name}
-                placement={"top"}
+                placement={'top'}
                 overlay={
                   <Tooltip id={`tooltip-top`}>
-                    <strong >{logo.name}</strong>
+                    <strong>{logo.name}</strong>
                   </Tooltip>
                 }
               >
-                <li
-                  className="software-skill-inline-languages"
-                  name={logo.skillName}
-                >
+                <li className="software-skill-inline-languages" name={logo.skillName}>
                   <span
                     className="iconify"
                     data-icon={logo.iconifyClass}
@@ -30,10 +26,6 @@ function ProjectLanguages(props) {
                   ></span>
                 </li>
               </OverlayTrigger>
-        
-             
-              
-              
             );
           })}
         </ul>

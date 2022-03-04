@@ -1,7 +1,6 @@
-
-import React from "react";
-import Typewriter from "typewriter-effect";
-import { greeting } from "../../portfolio";
+import React from 'react';
+import Typewriter from 'typewriter-effect';
+import { greeting } from '../../portfolio';
 
 function Type() {
   return (
@@ -10,7 +9,7 @@ function Type() {
         strings: greeting.subTitle,
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 50
       }}
     />
   );

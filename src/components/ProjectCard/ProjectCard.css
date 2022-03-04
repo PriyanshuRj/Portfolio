@@ -41,7 +41,7 @@
   line-height: 1.1;
   text-overflow: ellipsis;
   color: rgb(36, 41, 46);
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   margin-bottom: 0.75rem;
   font-size: 25px;
   font-weight: 700;
@@ -60,9 +60,9 @@
   text-align: left;
   width: 100%;
   display: block;
-  font-size:20px;
+  font-size: 20px;
   /* display: -webkit-box; */
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
@@ -92,7 +92,7 @@
 
 .repo-creation-date {
   margin: 0;
-  font-family: "Google Sans Regular";
+  font-family: 'Google Sans Regular';
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
@@ -115,12 +115,11 @@
     font-size: 14px;
   }
 }
-.project-card-image{
-  transition: all .2s ease-in-out;
+.project-card-image {
+  transition: all 0.2s ease-in-out;
   overflow: hidden;
 }
-.project-card-image:hover{
+.project-card-image:hover {
   transform: scale(1.05);
   background-color: red;
 }
-

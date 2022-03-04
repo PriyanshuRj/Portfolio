@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function ProjectsImg(props) {
   const theme = props.theme;
@@ -27,14 +27,7 @@ export default function ProjectsImg(props) {
         </linearGradient>
       </defs>
       <title></title>
-      <ellipse
-        cx="843.39"
-        cy="664.8"
-        rx="192"
-        ry="43"
-        fill={theme.accentColor[0]}
-        opacity="0.1"
-      />
+      <ellipse cx="843.39" cy="664.8" rx="192" ry="43" fill={theme.accentColor[0]} opacity="0.1" />
       <g opacity="0.1">
         <path
           d="M673.12,122.89c0,156.1,97.93,282.41,219,282.41"
@@ -85,14 +78,7 @@ export default function ProjectsImg(props) {
         stroke="#292A2D"
         strokeMiterlimit="10"
       />
-      <rect
-        x="508.37"
-        y="291.75"
-        width="107.03"
-        height="50.79"
-        rx="8.57"
-        opacity="0.1"
-      />
+      <rect x="508.37" y="291.75" width="107.03" height="50.79" rx="8.57" opacity="0.1" />
       <rect
         x="510.55"
         y="292.79"
