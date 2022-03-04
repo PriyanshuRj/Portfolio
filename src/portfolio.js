@@ -77,6 +77,17 @@ const skillprogress = {
       done: "60",
       icon:"eos-icons:iot"
     },
+    {
+      name:"Game Development",
+      done: "40",
+      icon:"entypo:game-controller"
+    },
+    {
+      name:"Augmented Reality",
+      done: "40",
+      icon:"ic:twotone-view-in-ar"
+      
+    },
     
   ]
 }
@@ -184,7 +195,7 @@ const skills = {
           skillName: "Socket.io",
           fontAwesomeClassname: "simple-icons:socketdotio",
           style: {
-            color: "#101010",
+            color: "#1D9723",
           },
         },
         {
@@ -233,7 +244,14 @@ const skills = {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
           style: {
-            color: "#E94E32",
+            color: "#005494",
+          },
+        },
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
+          style: {
+            color: "#9972D0",
           },
         },
         {
@@ -431,6 +449,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
+          },
+        },
+        {
+          skillName: "Unity",
+          fontAwesomeClassname: "simple-icons:unity",
+          style: {
+            color: "#47A998",
           },
         },
         
