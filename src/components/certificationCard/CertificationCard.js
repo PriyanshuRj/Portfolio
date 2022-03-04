@@ -1,19 +1,10 @@
 import React from "react";
 import "./CertificationCard.css";
 import { Fade } from "react-reveal";
-import { style } from "glamor";
 
 function CertificationCard(props) {
   const certificate = props.certificate;
   const theme = props.theme;
-  const styles = style({
-    background: 'rgba( 255, 255, 255, 0.35 )',
-// boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
-// backdropFilter: 'blur( 15px )',
-// -webkit-backdrop-filter: 'blur( 15px )',
-
-// border: '1px solid rgba( 255, 255, 255, 0.18 )',
-  });
 
   return (
     <div className="cards__item" 
@@ -25,10 +16,7 @@ function CertificationCard(props) {
             href={certificate.certificate_link}
             target="_blank"
             rel="noopener noreferrer"
-            className="card"
-           
-          >
-           
+            className="card">
            
         <img src={require(`../../assests/images/${certificate.img_path}`)} className="certi_card__image" alt="" />
       <div className="certi_card__overlay" style={{backgroundColor: theme.body}}>
@@ -46,15 +34,10 @@ function CertificationCard(props) {
         </div>
         <p className="certi_card__description" style={{ color: theme.secondaryText }}>{certificate.discription}</p>
       </div>
-
-
-            
           </a>
         </div>
-        
         </Fade>
       </div>
-   
   );
 }
 

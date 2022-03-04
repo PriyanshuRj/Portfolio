@@ -43,7 +43,7 @@ const Progress = (props) => {
     let bars = document.querySelectorAll('.progress-done');
     for (let bar of bars) {
       let barbounding = bar.getBoundingClientRect();
-      if (visible == true) {
+      if (visible === true) {
         setStateno(1);
       }
 
