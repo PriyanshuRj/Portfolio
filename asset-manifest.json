@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.140aac93.chunk.css",
-    "main.js": "/Portfolio/static/js/main.3507da0b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.3507da0b.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.e7f2a9be.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bddd3923.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bddd3923.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.bdd09ce5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.bdd09ce5.js.map",
-    "static/js/2.0c692cab.chunk.js": "/Portfolio/static/js/2.0c692cab.chunk.js",
-    "static/js/2.0c692cab.chunk.js.map": "/Portfolio/static/js/2.0c692cab.chunk.js.map",
+    "static/js/2.12b8f8cf.chunk.js": "/Portfolio/static/js/2.12b8f8cf.chunk.js",
+    "static/js/2.12b8f8cf.chunk.js.map": "/Portfolio/static/js/2.12b8f8cf.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.76150bb1dde2c9fae56329769f60800f.js": "/Portfolio/precache-manifest.76150bb1dde2c9fae56329769f60800f.js",
+    "precache-manifest.6d112b9aec8eecaede94e6f1ea955032.js": "/Portfolio/precache-manifest.6d112b9aec8eecaede94e6f1ea955032.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.140aac93.chunk.css.map": "/Portfolio/static/css/main.140aac93.chunk.css.map",
-    "static/js/2.0c692cab.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0c692cab.chunk.js.LICENSE.txt",
+    "static/css/main.e7f2a9be.chunk.css.map": "/Portfolio/static/css/main.e7f2a9be.chunk.css.map",
+    "static/js/2.12b8f8cf.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.12b8f8cf.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/Portfolio/static/media/2.ed3a6552.jpg",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/appdeployer.png": "/Portfolio/static/media/appdeployer.799d9bd6.png",
@@ -31,6 +31,7 @@
     "static/media/prepbytes.png": "/Portfolio/static/media/prepbytes.e267c63e.png",
     "static/media/reboot_reduce.jpg": "/Portfolio/static/media/reboot_reduce.0451e9d4.jpg",
     "static/media/self.png": "/Portfolio/static/media/self.376d4835.png",
+    "static/media/self.jpeg": "/Portfolio/static/media/self.41e5f35e.jpeg",
     "static/media/study_pocket_reduce.jpg": "/Portfolio/static/media/study_pocket_reduce.9d19dcf9.jpg",
     "static/media/vbps.png": "/Portfolio/static/media/vbps.d843cc32.png",
     "static/media/web3.png": "/Portfolio/static/media/web3.4b939317.png",
@@ -39,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bdd09ce5.js",
-    "static/js/2.0c692cab.chunk.js",
-    "static/css/main.140aac93.chunk.css",
-    "static/js/main.3507da0b.chunk.js"
+    "static/js/2.12b8f8cf.chunk.js",
+    "static/css/main.e7f2a9be.chunk.css",
+    "static/js/main.bddd3923.chunk.js"
   ]
 }
