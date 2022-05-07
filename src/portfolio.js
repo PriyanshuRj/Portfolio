@@ -20,7 +20,7 @@ const greeting = {
     'Video Editor',
     'Graphic Designer'
   ],
-  resumeLink: 'https://drive.google.com/file/d/1f0n8Azqek8PwRvUM49hkfa_WLuZDj3MS/view?usp=sharing',
+  resumeLink: 'https://drive.google.com/drive/folders/1Hzp9BPViD2oxvRTbXhpFX2Fd35kbH1qR?usp=sharing',
   mail: 'mailto:oriyanshu011109@gmail.com'
 };
 
