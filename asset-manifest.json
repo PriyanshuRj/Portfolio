@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e7f2a9be.chunk.css",
-    "main.js": "/Portfolio/static/js/main.e97fe380.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.e97fe380.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.72fe748c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.72fe748c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.bdd09ce5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.bdd09ce5.js.map",
-    "static/js/2.12b8f8cf.chunk.js": "/Portfolio/static/js/2.12b8f8cf.chunk.js",
-    "static/js/2.12b8f8cf.chunk.js.map": "/Portfolio/static/js/2.12b8f8cf.chunk.js.map",
+    "static/js/2.699eff58.chunk.js": "/Portfolio/static/js/2.699eff58.chunk.js",
+    "static/js/2.699eff58.chunk.js.map": "/Portfolio/static/js/2.699eff58.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.27122417874b34b4230061a453701cc5.js": "/Portfolio/precache-manifest.27122417874b34b4230061a453701cc5.js",
+    "precache-manifest.25b5097f5f58eac4cc8df0116f429409.js": "/Portfolio/precache-manifest.25b5097f5f58eac4cc8df0116f429409.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.e7f2a9be.chunk.css.map": "/Portfolio/static/css/main.e7f2a9be.chunk.css.map",
-    "static/js/2.12b8f8cf.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.12b8f8cf.chunk.js.LICENSE.txt",
+    "static/js/2.699eff58.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.699eff58.chunk.js.LICENSE.txt",
     "static/media/2.jpg": "/Portfolio/static/media/2.ed3a6552.jpg",
     "static/media/index.css": "/Portfolio/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/appdeployer.png": "/Portfolio/static/media/appdeployer.799d9bd6.png",
+    "static/media/caarya.svg": "/Portfolio/static/media/caarya.9852c1e6.svg",
     "static/media/construction.jpg": "/Portfolio/static/media/construction.156ac8a5.jpg",
     "static/media/courcera.png": "/Portfolio/static/media/courcera.e5cee7b1.png",
     "static/media/dhrishtiwadit_reduce.jpg": "/Portfolio/static/media/dhrishtiwadit_reduce.ae125aac.jpg",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bdd09ce5.js",
-    "static/js/2.12b8f8cf.chunk.js",
+    "static/js/2.699eff58.chunk.js",
     "static/css/main.e7f2a9be.chunk.css",
-    "static/js/main.e97fe380.chunk.js"
+    "static/js/main.72fe748c.chunk.js"
   ]
 }
