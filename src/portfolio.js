@@ -592,9 +592,20 @@ const experience = {
           company: 'AppDeployer',
           company_url: 'https://www.appsdeployer.com/',
           logo_path: 'appdeployer.png',
-          duration: 'jan-2022 - Present',
+          duration: 'jan-2022 - May 2022',
           location: 'Online',
-          description: `Working as a Front-end Developer at AppDeployer is a great experience to learn new technologies and work on real world projects. Curently developing Admin Dashboard.
+          description: `Worked as a Front-end Developer at AppDeployer was a great experience to learn new technologies and work on real world projects. Curently developing Admin Dashboard.
+          `,
+          color: '#0071C5'
+        },
+        {
+          title: 'Student Associate',
+          company: 'Caarya',
+          company_url: 'https://caarya.in/',
+          logo_path: 'caarya.svg',
+          duration: 'Apr-2022 - May 2022',
+          location: 'Online',
+          description: `Worked as a Ground level Game Developer at Caarya developed a intractive game which lead to a intractive explorative world for online learning.
           `,
           color: '#0071C5'
         }
