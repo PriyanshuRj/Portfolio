@@ -741,7 +741,7 @@ const projects = {
     },
     {
       id: '3',
-      name: 'Face Schiled Detection',
+      name: 'Face Shield Detection',
       url: 'https://github.com/PriyanshuRj/faceShield_detector',
       img_url: 'facemask_reduce.jpg',
       description:
