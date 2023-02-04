@@ -3,7 +3,7 @@ import './Educations.css';
 import DegreeCard from '../../components/degreeCard/DegreeCard.js';
 import { degrees } from '../../portfolio';
 import { Fade } from 'react-awesome-reveal';
-
+import PropTypes from 'prop-types';
 function Educations(props) {
   const theme = props.theme;
 
@@ -17,12 +17,15 @@ function Educations(props) {
         </Fade>
       </div>
       <div className="educations-body-div">
-        {degrees.degrees.map((degree) => {
-          return <DegreeCard degree={degree} theme={theme} />;
+        {degrees.degrees.map((degree, ind) => {
+          return <DegreeCard key={ind} degree={degree} theme={theme} />;
         })}
       </div>
     </div>
   );
 }
 
+Educations.propTypes = {
+  theme: PropTypes.object
+};
 export default Educations;

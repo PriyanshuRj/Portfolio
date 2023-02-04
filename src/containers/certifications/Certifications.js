@@ -2,6 +2,7 @@ import React from 'react';
 import './Certifications.css';
 import { Fade } from 'react-awesome-reveal';
 import { certifications } from '../../portfolio';
+import PropTypes from 'prop-types';
 import CertificationCard from '../../components/certificationCard/CertificationCard';
 
 function Certifications(props) {
@@ -16,12 +17,15 @@ function Certifications(props) {
         </Fade>
       </div>
       <div className="certi-cards-div-main">
-        {certifications.certifications.map((cert) => {
-          return <CertificationCard certificate={cert} theme={theme} />;
+        {certifications.certifications.map((cert, ind) => {
+          return <CertificationCard key={ind} certificate={cert} theme={theme} />;
         })}
       </div>
     </div>
   );
 }
+Certifications.propTypes = {
+  theme: PropTypes.object
+};
 
 export default Certifications;

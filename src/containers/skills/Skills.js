@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Skills.css';
 import SkillSection from './SkillSection';
 import { skillprogress } from '../../portfolio';
 import VisibilitySensor from 'react-visibility-sensor';
 import { Fade } from 'react-awesome-reveal';
-import About from './../about/about';
+// import About from './../about/about';
+import PropTypes from 'prop-types';
 import './progressbar.css';
 export default function Skills(props) {
   const theme = props.theme;
@@ -36,19 +37,19 @@ export default function Skills(props) {
 }
 const Progress = (props) => {
   const [style, setStyle] = React.useState({});
-  const [stateno, setStateno] = useState(0);
+  // const [stateno, setStateno] = useState(0);
   const [visible, visiblity] = useState(false);
 
   const theme = props.theme;
-  useEffect(() => {
-    let bars = document.querySelectorAll('.progress-done');
-    for (let bar of bars) {
-      let barbounding = bar.getBoundingClientRect();
-      if (visible === true) {
-        setStateno(1);
-      }
-    }
-  });
+  // useEffect(() => {
+  //   let bars = document.querySelectorAll('.progress-done');
+  //   for (let bar of bars) {
+  //     let barbounding = bar.getBoundingClientRect();
+  //     if (visible === true) {
+  //       setStateno(1);
+  //     }
+  //   }
+  // });
   setTimeout(() => {
     const newStyle = {
       opacity: 1,
@@ -73,4 +74,11 @@ const Progress = (props) => {
       </div>
     </VisibilitySensor>
   );
+};
+Skills.propTypes = {
+  theme: PropTypes.object
+};
+Progress.propTypes = {
+  done: PropTypes.number,
+  theme: PropTypes.object
 };

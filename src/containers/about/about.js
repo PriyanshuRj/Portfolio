@@ -2,6 +2,7 @@ import React from 'react';
 import Coderimg from './Coderimg';
 import { Fade } from 'react-awesome-reveal';
 import './about.css';
+import PropTypes from 'prop-types';
 import { about } from '../../portfolio';
 export default function About(props) {
   const theme = props.theme;
@@ -41,3 +42,7 @@ export default function About(props) {
     </Fade>
   );
 }
+
+About.propTypes = {
+  theme: PropTypes.object
+};

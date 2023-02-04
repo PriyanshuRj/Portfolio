@@ -1,6 +1,6 @@
 import React from 'react';
 import './SoftwareSkill.css';
-import { Icon } from '@iconify/react';
+import PropTypes from 'prop-types';
 import { style } from 'glamor';
 function SoftwareSkill(props) {
   const theme = props.theme;
@@ -14,16 +14,15 @@ function SoftwareSkill(props) {
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {props.logos.map((logo) => {
+          {props.logos.map((logo, ind) => {
             return (
-              <li className="software-skill-inline" name={logo.skillName}>
+              <li className="software-skill-inline" key={ind} name={logo.skillName}>
                 <div className="icons-div" {...styles}>
                   <span
                     className="iconify"
                     data-icon={logo.fontAwesomeClassname}
                     style={logo.style}
-                    data-inline="false"
-                  ></span>
+                    data-inline="false"></span>
                   <span className="icons-text">{logo.skillName}</span>
                 </div>
               </li>
@@ -34,5 +33,9 @@ function SoftwareSkill(props) {
     </div>
   );
 }
+SoftwareSkill.propTypes = {
+  theme: PropTypes.object,
+  logos: PropTypes.array
+};
 
 export default SoftwareSkill;

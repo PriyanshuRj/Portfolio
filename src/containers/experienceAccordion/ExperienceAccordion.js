@@ -1,8 +1,9 @@
 import React from 'react';
 import ExperienceCard from '../../components/experienceCard/ExperienceCard.js';
 import './ExperienceAccordion.css';
-import { Accordion, Panel } from 'baseui/accordion';
+// import { Accordion, Panel } from 'baseui/accordion';
 import { DarkTheme, LightTheme, ThemeProvider } from 'baseui';
+import PropTypes from 'prop-types';
 
 function ExperienceAccordion(props) {
   const theme = props.theme;
@@ -31,5 +32,10 @@ function ExperienceAccordion(props) {
     </div>
   );
 }
+
+ExperienceAccordion.propTypes = {
+  theme: PropTypes.object,
+  sections: PropTypes.object
+};
 
 export default ExperienceAccordion;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectLanguages.css';
+import PropTypes from 'prop-types';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-import { Icon, InlineIcon } from '@iconify/react';
 function ProjectLanguages(props) {
   return (
     <div>
@@ -16,14 +16,12 @@ function ProjectLanguages(props) {
                   <Tooltip id={`tooltip-top`}>
                     <strong>{logo.name}</strong>
                   </Tooltip>
-                }
-              >
+                }>
                 <li className="software-skill-inline-languages" name={logo.skillName}>
                   <span
                     className="iconify"
                     data-icon={logo.iconifyClass}
-                    data-inline="false"
-                  ></span>
+                    data-inline="false"></span>
                 </li>
               </OverlayTrigger>
             );
@@ -33,5 +31,7 @@ function ProjectLanguages(props) {
     </div>
   );
 }
-
+ProjectLanguages.propTypes = {
+  logos: PropTypes.array
+};
 export default ProjectLanguages;

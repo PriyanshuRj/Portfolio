@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 export default function FullStackImg(props) {
   const theme = props.theme;
   return (
@@ -7,8 +7,7 @@ export default function FullStackImg(props) {
       id="ade8c9af-7e2e-4eda-b5c8-b06129257226"
       width="100%"
       height="100%"
-      viewBox="0 0 1076.06371 755.2279"
-    >
+      viewBox="0 0 1076.06371 755.2279">
       <path
         d="M926.11393,774.80937c-6.98452,26.59789-31.459,43.21966-31.459,43.21966s-13.15033-26.50193-6.16581-53.09982,31.459-43.21966,31.459-43.21966S933.09845,748.21148,926.11393,774.80937Z"
         transform="translate(-61.96814 -72.38605)"
@@ -183,3 +182,7 @@ export default function FullStackImg(props) {
     </svg>
   );
 }
+
+FullStackImg.propTypes = {
+  theme: PropTypes.object
+};

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 export default function DataScienceImg(props) {
   const theme = props.theme;
   return (
@@ -9,8 +9,7 @@ export default function DataScienceImg(props) {
       xmlns="http://www.w3.org/2000/svg"
       width="100%"
       height="100%"
-      viewBox="0 0 1120 829.80067"
-    >
+      viewBox="0 0 1120 829.80067">
       <title></title>
       <ellipse cx="975.57906" cy="811.05902" rx="144.42094" ry="18.74165" fill={theme.imageDark} />
       <rect y="27.5" width="436" height="272" fill={theme.imageDark} />
@@ -196,3 +195,6 @@ export default function DataScienceImg(props) {
     </svg>
   );
 }
+DataScienceImg.propTypes = {
+  theme: PropTypes.object
+};

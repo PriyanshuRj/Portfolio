@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 export default function DesignImg(props) {
   const theme = props.theme;
   return (
@@ -10,8 +10,7 @@ export default function DesignImg(props) {
       // xmlns:xlink="http://www.w3.org/1999/xlink"
       width="1164.07"
       height="555.93"
-      viewBox="0 0 1164.07 555.93"
-    >
+      viewBox="0 0 1164.07 555.93">
       <defs>
         <linearGradient
           id="ac59aa7e-40f5-4d5f-b82f-fdd6bf7d03ee"
@@ -19,8 +18,7 @@ export default function DesignImg(props) {
           y1="679.56"
           x2="439.4"
           y2="679.56"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="gray" stopOpacity="0.25" />
           <stop offset="0.54" stopColor="gray" stopOpacity="0.12" />
           <stop offset="1" stopColor="gray" stopOpacity="0.1" />
@@ -967,3 +965,7 @@ export default function DesignImg(props) {
     </svg>
   );
 }
+
+DesignImg.propTypes = {
+  theme: PropTypes.object
+};

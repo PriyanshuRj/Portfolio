@@ -7,7 +7,7 @@ import FullStackImg from './FullStackImg';
 import CloudInfraImg from './CloudInfraImg';
 import DesignImg from './DesignImg';
 import DataScienceImg from './DataScienceImg';
-
+import PropTypes from 'prop-types';
 function GetSkillSvg(props) {
   if (props.fileName === 'FullStackImg') return <FullStackImg theme={props.theme} />;
   else if (props.fileName === 'CloudInfraImg') return <CloudInfraImg theme={props.theme} />;
@@ -57,7 +57,7 @@ function SkillSection(props) {
           );
         } else {
           return (
-            <div className="skills-main-div">
+            <div key={index} className="skills-main-div">
               <div className="skills-text-div">
                 <Fade left duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
@@ -94,5 +94,13 @@ function SkillSection(props) {
     </div>
   );
 }
-
+GetSkillSvg.propTypes = {
+  fileName: PropTypes.string,
+  theme: PropTypes.object
+};
+SkillSection.propTypes = {
+  theme: PropTypes.object,
+  fileName: PropTypes.string,
+  skill: PropTypes.object
+};
 export default SkillSection;

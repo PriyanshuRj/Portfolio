@@ -6,7 +6,7 @@ import Certifications from '../../containers/certifications/Certifications';
 import EducationImg from './EducationImg';
 import './EducationComponent.css';
 import { Fade } from 'react-awesome-reveal';
-
+import PropTypes from 'prop-types';
 function Education(props) {
   const theme = props.theme;
   return (
@@ -42,4 +42,8 @@ function Education(props) {
   );
 }
 
+Education.propTypes = {
+  theme: PropTypes.object,
+  setTheme: PropTypes.func
+};
 export default Education;

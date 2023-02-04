@@ -20,7 +20,8 @@ const greeting = {
     'Video Editor',
     'Graphic Designer'
   ],
-  resumeLink: 'https://drive.google.com/drive/folders/1Hzp9BPViD2oxvRTbXhpFX2Fd35kbH1qR?usp=sharing',
+  resumeLink:
+    'https://drive.google.com/drive/folders/1Hzp9BPViD2oxvRTbXhpFX2Fd35kbH1qR?usp=sharing',
   mail: 'mailto:oriyanshu011109@gmail.com'
 };
 
@@ -595,6 +596,34 @@ const experience = {
           duration: 'jan-2022 - May 2022',
           location: 'Online',
           description: `Worked as a Front-end Developer at AppDeployer was a great experience to learn new technologies and work on real world projects. Curently developing Admin Dashboard.
+          `,
+          color: '#0071C5'
+        },
+        {
+          title: 'Product Development @ ML Developer (Intern)',
+          company: 'Aekatr',
+          company_url: '/',
+          logo_path: 'aekatr.png',
+          duration: 'Aug-2022 - Sept 2022',
+          location: 'Online',
+          description: `Implemented few DL models for removing the background for the products image i
+      
+          Developed YOLOv5 model for recognization of the product, an contors based edge detection mechanism which can help us to detect the boundaries of the product and made a proper pipeline for this model.
+      
+          Develpoed an intent classifer which can be used in voice assistant feature to navigate through the application or update any information on the application to ease out the interfacing between the user an dthe product.
+      
+          Developed a NER model to detect the occurance of any product name, quantity, brand name or a specific seller name in the query of the user. 
+          `,
+          color: '#0071C5'
+        },
+        {
+          title: 'Full Stack Developer (Intern)',
+          company: 'Rotunda',
+          company_url: '/',
+          logo_path: 'appdeployer.png',
+          duration: 'Oct-2022 - Jan 2023',
+          location: 'Online',
+          description: `Developed a NEXTjs based website which can be used to mint memes ans NFTs, comment on these memes, share stock images for creation of memes, genrating meme using in house meme genraton.
           `,
           color: '#0071C5'
         },

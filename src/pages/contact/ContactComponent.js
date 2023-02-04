@@ -7,6 +7,7 @@ import { Fade } from 'react-awesome-reveal';
 import './ContactComponent.css';
 import { greeting, contactPageData } from '../../portfolio.js';
 import { style } from 'glamor';
+import PropTypes from 'prop-types';
 import ContactForm from '../../components/contactform/contactform';
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -99,4 +100,9 @@ function Contact(props) {
   );
 }
 
+Contact.propTypes = {
+  theme: PropTypes.object,
+  setTheme: PropTypes.func,
+  onToggle: PropTypes.func
+};
 export default Contact;

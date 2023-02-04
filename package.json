@@ -19,6 +19,7 @@
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
     "glamor": "^2.20.40",
+    "prettier-package-json": "^2.8.0",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.3",
     "react-bootstrap": "^2.7.0",

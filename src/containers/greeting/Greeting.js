@@ -6,6 +6,7 @@ import { Fade } from 'react-awesome-reveal';
 import { useNavigate } from 'react-router-dom';
 import FeelingProud from './FeelingProud';
 import { style } from 'glamor';
+import PropTypes from 'prop-types';
 import Type from './typewriter';
 export default function Greeting(props) {
   const theme = props.theme;
@@ -29,7 +30,7 @@ export default function Greeting(props) {
                 <span className="greeting-wave">👋</span>.
               </h1>
               <p className="greeting-text-p subTitle" style={{ color: theme.secondaryText }}>
-                <span>I'm </span>
+                <span>I&lsquo;m </span>
                 <span style={{ color: theme.accentColor[0] }}>{greeting.full_name}. </span>
                 {/* {greeting.subTitle} */}
                 <Type />
@@ -56,3 +57,7 @@ export default function Greeting(props) {
     </Fade>
   );
 }
+
+Greeting.propTypes = {
+  theme: PropTypes.object
+};

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function BlogsImg(props) {
   const theme = props.theme;
@@ -9,8 +10,7 @@ export default function BlogsImg(props) {
       xmlns="http://www.w3.org/2000/svg"
       width="1061"
       height="742.85506"
-      viewBox="0 0 1061 742.85506"
-    >
+      viewBox="0 0 1061 742.85506">
       <title></title>
       <path
         d="M1118.5,516.01425c0,103.85867-61.74233,140.12223-137.90535,140.12223S842.68931,619.87292,842.68931,516.01425,980.59465,280.031,980.59465,280.031,1118.5,412.15559,1118.5,516.01425Z"
@@ -259,3 +259,7 @@ export default function BlogsImg(props) {
     </svg>
   );
 }
+
+BlogsImg.propTypes = {
+  theme: PropTypes.object
+};

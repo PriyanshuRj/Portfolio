@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 export default function EducationImg(props) {
   const theme = props.theme;
   return (
@@ -9,8 +9,7 @@ export default function EducationImg(props) {
       xmlns="http://www.w3.org/2000/svg"
       width="795.39431"
       height="574.03802"
-      viewBox="0 0 795.39431 574.03802"
-    >
+      viewBox="0 0 795.39431 574.03802">
       <defs>
         <linearGradient
           id="b2a81085-935f-40be-bb27-75940df8c338"
@@ -19,8 +18,7 @@ export default function EducationImg(props) {
           x2="-450.78971"
           y2="2729.34772"
           gradientTransform="translate(3217.53309 1009.65784) rotate(90)"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="gray" stopOpacity="0.25" />
           <stop offset="0.53514" stopColor="gray" stopOpacity="0.12" />
           <stop offset="1" stopColor="gray" stopOpacity="0.1" />
@@ -210,3 +208,7 @@ export default function EducationImg(props) {
     </svg>
   );
 }
+
+EducationImg.propTypes = {
+  theme: PropTypes.object
+};

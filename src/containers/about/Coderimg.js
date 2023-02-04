@@ -1,5 +1,5 @@
 import React from 'react';
-//
+import PropTypes from 'prop-types';
 import './coderimg.css';
 export default function Codering(props) {
   const theme = props.theme;
@@ -12,8 +12,7 @@ export default function Codering(props) {
         x="0px"
         y="0px"
         viewBox="140 80 460 370"
-        style={{ enableBackground: 'new 0 0 566.6 553' }}
-      >
+        style={{ enableBackground: 'new 0 0 566.6 553' }}>
         <rect x="149.7" y="116.6" className="st0" width="79" height="96" />
 
         <g id="Screens">
@@ -1308,3 +1307,6 @@ export default function Codering(props) {
     </div>
   );
 }
+Codering.propTypes = {
+  theme: PropTypes.object
+};

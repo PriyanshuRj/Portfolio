@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 export default function CloudInfraImg(props) {
   const theme = props.theme;
   return (
@@ -10,8 +10,7 @@ export default function CloudInfraImg(props) {
       // xmlns:xlink="http://www.w3.org/1999/xlink"
       width="100%"
       height="100%"
-      viewBox="0 0 864.81 658.45"
-    >
+      viewBox="0 0 864.81 658.45">
       <defs>
         <linearGradient
           id="e6219774-622b-406f-ae45-f26a74b1f5cd"
@@ -19,8 +18,7 @@ export default function CloudInfraImg(props) {
           y1="779.22"
           x2="477.09"
           y2="120.78"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="gray" stopOpacity="0.25" />
           <stop offset="0.54" stopColor="gray" stopOpacity="0.12" />
           <stop offset="1" stopColor="gray" stopOpacity="0.1" />
@@ -264,3 +262,7 @@ export default function CloudInfraImg(props) {
     </svg>
   );
 }
+
+CloudInfraImg.propTypes = {
+  theme: PropTypes.object
+};
