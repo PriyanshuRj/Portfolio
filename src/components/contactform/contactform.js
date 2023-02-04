@@ -3,6 +3,7 @@ import './contact.css';
 import { style } from 'glamor';
 import { useForm } from '@formspree/react';
 import ContactFormSvg from './contactformsvg';
+import PropTypes from 'prop-types';
 
 export default function Contactform(props) {
   const [state, handleSubmit] = useForm('xqknplql');
@@ -38,8 +39,7 @@ export default function Contactform(props) {
                     <span>Submitting Response !!</span>
                     <div
                       className="contact-lower-bound"
-                      style={{ backgroundColor: theme.accentColor[1] }}
-                    ></div>
+                      style={{ backgroundColor: theme.accentColor[1] }}></div>
                   </div>
                 </div>
                 <div className="contact-screen-body-item-after">
@@ -73,8 +73,7 @@ export default function Contactform(props) {
                     <span>ME</span>
                     <div
                       className="contact-lower-bound"
-                      style={{ backgroundColor: theme.accentColor[1] }}
-                    ></div>
+                      style={{ backgroundColor: theme.accentColor[1] }}></div>
                   </div>
                   <div className="contact-app-contact" style={{ color: theme.secondaryText }}>
                     CONTACT INFO : +91 9871348643{' '}
@@ -112,16 +111,14 @@ export default function Contactform(props) {
                           className="contact-app-form-control-textarea"
                           name="message"
                           placeholder="MESSAGE"
-                          style={{ color: theme.secondaryText }}
-                        ></textarea>
+                          style={{ color: theme.secondaryText }}></textarea>
                       </div>
                       <div className="contact-app-form-group buttons">
                         <button
                           className="contact-app-form-button contact-general-btn"
                           type="submit"
                           disabled={state.submitting}
-                          {...styles}
-                        >
+                          {...styles}>
                           SEND
                         </button>
                       </div>
@@ -136,3 +133,6 @@ export default function Contactform(props) {
     );
   }
 }
+Contactform.propTypes = {
+  theme: PropTypes.object
+};

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './Header.css';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import { NavLink, Link } from 'react-router-dom';
 import { greeting, settings } from '../../portfolio.js';
-import { CgSun } from './icons';
-import { HiMoon } from './icons';
-import { style } from 'glamor';
 
+import { style } from 'glamor';
+import PropTypes from 'prop-types';
+import { HiMoon } from 'react-icons/hi';
+import { CgSun } from 'react-icons/cg';
 function Header(props) {
   const theme = props.theme;
 
@@ -82,8 +83,7 @@ function Header(props) {
                 to="/home"
                 tag={Link}
                 activeStyle={{ fontWeight: 'bold' }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
+                style={{ borderRadius: 5, color: theme.text }}>
                 Home
               </NavLink>
             </li>
@@ -93,8 +93,7 @@ function Header(props) {
                 to="/education"
                 tag={Link}
                 activeStyle={{ fontWeight: 'bold' }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
+                style={{ borderRadius: 5, color: theme.text }}>
                 Education
               </NavLink>
             </li>
@@ -104,8 +103,7 @@ function Header(props) {
                 to="/experience"
                 tag={Link}
                 activeStyle={{ fontWeight: 'bold' }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
+                style={{ borderRadius: 5, color: theme.text }}>
                 Experience
               </NavLink>
             </li>
@@ -115,8 +113,7 @@ function Header(props) {
                 to="/projects"
                 tag={Link}
                 activeStyle={{ fontWeight: 'bold' }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
+                style={{ borderRadius: 5, color: theme.text }}>
                 Projects
               </NavLink>
             </li>
@@ -126,8 +123,7 @@ function Header(props) {
                 to="/contact"
                 tag={Link}
                 activeStyle={{ fontWeight: 'bold' }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
+                style={{ borderRadius: 5, color: theme.text }}>
                 Contact and Resume
               </NavLink>
             </li>
@@ -141,4 +137,8 @@ function Header(props) {
   );
 }
 
+Header.propTypes = {
+  theme: PropTypes.object,
+  setTheme: PropTypes.func
+};
 export default Header;

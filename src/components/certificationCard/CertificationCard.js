@@ -1,6 +1,7 @@
 import React from 'react';
 import './CertificationCard.css';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
+import PropTypes from 'prop-types';
 
 function CertificationCard(props) {
   const certificate = props.certificate;
@@ -14,8 +15,7 @@ function CertificationCard(props) {
             href={certificate.certificate_link}
             target="_blank"
             rel="noopener noreferrer"
-            className="card"
-          >
+            className="card">
             <img
               src={require(`../../assests/images/${certificate.img_path}`)}
               className="certi_card__image"
@@ -26,8 +26,7 @@ function CertificationCard(props) {
                 <svg
                   className="certi_card__arc"
                   xmlns="http://www.w3.org/2000/svg"
-                  style={{ fill: theme.body }}
-                >
+                  style={{ fill: theme.body }}>
                   <path />
                 </svg>
                 <img
@@ -54,5 +53,8 @@ function CertificationCard(props) {
     </div>
   );
 }
-
+CertificationCard.propTypes = {
+  certificate: PropTypes.object,
+  theme: PropTypes.object
+};
 export default CertificationCard;

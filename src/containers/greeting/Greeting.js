@@ -2,14 +2,14 @@ import React from 'react';
 import './Greeting.css';
 import SocialMedia from '../../components/socialMedia/SocialMedia';
 import { greeting } from '../../portfolio';
-import { Fade } from 'react-reveal';
-import { useHistory } from 'react-router-dom';
+import { Fade } from 'react-awesome-reveal';
+import { useNavigate } from 'react-router-dom';
 import FeelingProud from './FeelingProud';
 import { style } from 'glamor';
 import Type from './typewriter';
 export default function Greeting(props) {
   const theme = props.theme;
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const styles = style({
     backgroundColor: `${theme.accentColor[1]}`,
@@ -41,9 +41,8 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push('/contact');
-                  }}
-                >
+                    navigate('/contact');
+                  }}>
                   Contact Me
                 </button>
               </div>

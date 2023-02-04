@@ -1,6 +1,8 @@
 import React from 'react';
 import './DegreeCard.css';
-import { Fade, Flip } from 'react-reveal';
+import PropTypes from 'prop-types';
+
+import { Fade, Flip } from 'react-awesome-reveal';
 import { style } from 'glamor';
 
 function DegreeCard(props) {
@@ -106,8 +108,7 @@ function DegreeCard(props) {
                 <p
                   className="content-list"
                   style={{ color: theme.text }}
-                  key={theme.text.concat(index)}
-                >
+                  key={theme.text.concat(index)}>
                   {sentence}
                 </p>
               );
@@ -116,8 +117,7 @@ function DegreeCard(props) {
               href={degree.website_link}
               target="_blank"
               rel="noopener noreferrer"
-              style={{ textDecoration: 'none', textAlign: 'center' }}
-            >
+              style={{ textDecoration: 'none', textAlign: 'center' }}>
               <p
                 {...button_visit}
                 style={{
@@ -125,8 +125,7 @@ function DegreeCard(props) {
                   textDecoration: 'none',
                   float: 'right',
                   backgroundColor: theme.accentColor[0]
-                }}
-              >
+                }}>
                 Visit Website
               </p>
             </a>
@@ -137,4 +136,8 @@ function DegreeCard(props) {
   );
 }
 
+DegreeCard.propTypes = {
+  degree: PropTypes.object,
+  theme: PropTypes.object
+};
 export default DegreeCard;

@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 import SoftwareSkill from '../../components/softwareSkills/SoftwareSkill';
 import { skills } from '../../portfolio';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import FullStackImg from './FullStackImg';
 import CloudInfraImg from './CloudInfraImg';
 import DesignImg from './DesignImg';
@@ -45,8 +45,7 @@ function SkillSection(props) {
                         <p
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
-                          key={skillSentence + index}
-                        >
+                          key={skillSentence + index}>
                           {skillSentence}
                         </p>
                       );
@@ -75,8 +74,7 @@ function SkillSection(props) {
                         <p
                           className="subTitle skills-text"
                           key={index}
-                          style={{ color: theme.secondaryText }}
-                        >
+                          style={{ color: theme.secondaryText }}>
                           {skillSentence}
                         </p>
                       );

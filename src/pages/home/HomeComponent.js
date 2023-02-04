@@ -3,8 +3,10 @@ import Header from '../../components/header/Header';
 import Greeting from '../../containers/greeting/Greeting';
 import About from '../../containers/about/about';
 import Footer from '../../components/footer/Footer';
+import PropTypes from 'prop-types';
 
 function Home(props) {
+  console.log(props);
   return (
     <div>
       <Header theme={props.theme} setTheme={props.setTheme} />
@@ -14,5 +16,8 @@ function Home(props) {
     </div>
   );
 }
-
+Home.propTypes = {
+  theme: PropTypes.object,
+  setTheme: PropTypes.func
+};
 export default Home;

@@ -1,8 +1,9 @@
 import React from 'react';
 import ProjectLanguages from '../projectLanguages/ProjectLanguages';
 import './ProjectCard.css';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import { style } from 'glamor';
+import PropTypes from 'prop-types';
 
 export default function ProjectCard({ repo, theme }) {
   function openRepoinNewTab(url) {
@@ -47,8 +48,7 @@ export default function ProjectCard({ repo, theme }) {
                 src={require(`../../assests/images/${repo.img_url}`)}
                 // src={repo.img_url}
                 alt={repo.name}
-                style={{ width: '100%', borderRadius: '10px' }}
-              ></img>
+                style={{ width: '100%', borderRadius: '10px' }}></img>
             </div>
             <div style={{ padding: '2rem' }}>
               <div className="repo-name-div">
@@ -69,3 +69,7 @@ export default function ProjectCard({ repo, theme }) {
     </div>
   );
 }
+ProjectCard.propTypes = {
+  repo: PropTypes.object,
+  theme: PropTypes.object
+};

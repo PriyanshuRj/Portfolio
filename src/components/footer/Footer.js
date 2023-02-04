@@ -1,8 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import { greeting } from '../../portfolio.js';
-/* eslint-disable jsx-a11y/accessible-emoji */
+
+import PropTypes from 'prop-types';
 
 export default function Footer(props) {
   return (
@@ -14,8 +15,7 @@ export default function Footer(props) {
             href="https://github.com/PriyanshuRj"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: 'none' }}
-          >
+            style={{ textDecoration: 'none' }}>
             {greeting.title2}
           </a>
         </p>
@@ -23,3 +23,7 @@ export default function Footer(props) {
     </div>
   );
 }
+
+Footer.propTypes = {
+  theme: PropTypes.object
+};

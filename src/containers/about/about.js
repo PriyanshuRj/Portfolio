@@ -1,6 +1,6 @@
 import React from 'react';
 import Coderimg from './Coderimg';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import './about.css';
 import { about } from '../../portfolio';
 export default function About(props) {

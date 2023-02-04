@@ -5,7 +5,7 @@ import Educations from '../../containers/education/Educations';
 import Certifications from '../../containers/certifications/Certifications';
 import EducationImg from './EducationImg';
 import './EducationComponent.css';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 function Education(props) {
   const theme = props.theme;
@@ -27,8 +27,7 @@ function Education(props) {
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
+                style={{ color: theme.secondaryText }}>
                 I actively participate in hackathons and other tech-related activities. Below are
                 some of my major certifications.
               </p>

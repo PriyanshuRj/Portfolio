@@ -3,7 +3,7 @@ import './Skills.css';
 import SkillSection from './SkillSection';
 import { skillprogress } from '../../portfolio';
 import VisibilitySensor from 'react-visibility-sensor';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import About from './../about/about';
 import './progressbar.css';
 export default function Skills(props) {
@@ -65,8 +65,7 @@ const Progress = (props) => {
       onChange={(isVisible) => {
         visiblity(isVisible);
         console.log(visible);
-      }}
-    >
+      }}>
       <div className="progress">
         <div className="progress-done" style={style}>
           {props.done}%

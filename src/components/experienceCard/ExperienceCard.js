@@ -1,6 +1,7 @@
 import React from 'react';
 import './ExperienceCard.css';
 import { style } from 'glamor';
+import PropTypes from 'prop-types';
 
 function ExperienceCard(props) {
   const experience = props.experience;
@@ -56,4 +57,8 @@ function ExperienceCard(props) {
   );
 }
 
+ExperienceCard.propTypes = {
+  experience: PropTypes.object,
+  theme: PropTypes.object
+};
 export default ExperienceCard;

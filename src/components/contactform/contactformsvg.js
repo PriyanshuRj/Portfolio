@@ -1,5 +1,7 @@
 import React from 'react';
 import './contactformsvg.css';
+import PropTypes from 'prop-types';
+
 export default function Contactformsvg(props) {
   const theme = props.theme;
 
@@ -8,8 +10,7 @@ export default function Contactformsvg(props) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 396.83 388.61"
-        className="contactform-main-svg"
-      >
+        className="contactform-main-svg">
         <defs>
           <style></style>
         </defs>
@@ -827,3 +828,7 @@ export default function Contactformsvg(props) {
     </div>
   );
 }
+
+Contactformsvg.propTypes = {
+  theme: PropTypes.object
+};

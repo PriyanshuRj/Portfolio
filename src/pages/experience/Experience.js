@@ -4,12 +4,13 @@ import Footer from '../../components/footer/Footer';
 import ExperienceAccordion from '../../containers/experienceAccordion/ExperienceAccordion.js';
 import './Experience.css';
 import { experience } from '../../portfolio.js';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import ExperienceImg from './ExperienceImg';
 import Skills from '../../containers/skills/Skills';
+import PropTypes from 'prop-types';
+
 function Experience(props) {
   const theme = props.theme;
-  console.log(props.setTheme);
   return (
     <div className="experience-main">
       <Header theme={theme} setTheme={props.setTheme} />
@@ -28,8 +29,7 @@ function Experience(props) {
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
+                style={{ color: theme.secondaryText }}>
                 {experience['description']}
               </p>
             </div>
@@ -43,4 +43,9 @@ function Experience(props) {
   );
 }
 
+Experience.propTypes = {
+  theme: PropTypes.object,
+  setTheme: PropTypes.func,
+  onToggle: PropTypes.func
+};
 export default Experience;

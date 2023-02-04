@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default function ExperienceImg(props) {
   const theme = props.theme;
@@ -9,8 +10,7 @@ export default function ExperienceImg(props) {
       xmlns="http://www.w3.org/2000/svg"
       width="1094"
       height="760"
-      viewBox="0 0 1094 760"
-    >
+      viewBox="0 0 1094 760">
       <title></title>
       <rect
         x="155"
@@ -380,3 +380,6 @@ export default function ExperienceImg(props) {
     </svg>
   );
 }
+ExperienceImg.propTypes = {
+  theme: PropTypes.object
+};

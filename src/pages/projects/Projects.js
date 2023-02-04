@@ -2,11 +2,12 @@ import React from 'react';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
-import { Fade } from 'react-reveal';
+import { Fade } from 'react-awesome-reveal';
 import { projectsHeader, projects } from '../../portfolio.js';
 import './Projects.css';
 import ProjectsImg from './ProjectsImg';
 import { style } from 'glamor';
+import PropTypes from 'prop-types';
 
 function Projects(props) {
   const theme = props.theme;
@@ -33,8 +34,7 @@ function Projects(props) {
               </h1>
               <p
                 className="projects-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
+                style={{ color: theme.secondaryText }}>
                 {projectsHeader['description']}
               </p>
             </div>
@@ -42,8 +42,8 @@ function Projects(props) {
         </Fade>
       </div>
       <div className="repo-cards-div-main">
-        {projects.data.map((repo) => {
-          return <ProjectCard repo={repo} theme={theme} />;
+        {projects.data.map((repo, ind) => {
+          return <ProjectCard key={ind} repo={repo} theme={theme} />;
         })}
       </div>
       <br />
@@ -54,8 +54,7 @@ function Projects(props) {
         className="general-btn"
         href="https://github.com/PriyanshuRj"
         target="_blank"
-        rel="noopener noreferrer"
-      >
+        rel="noopener noreferrer">
         More Projects (Github)
       </a>
       <br />
@@ -65,4 +64,9 @@ function Projects(props) {
   );
 }
 
+Projects.propTypes = {
+  theme: PropTypes.object,
+  setTheme: PropTypes.func,
+  onToggle: PropTypes.func
+};
 export default Projects;
