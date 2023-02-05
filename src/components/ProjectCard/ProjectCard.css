@@ -54,7 +54,10 @@
 .repo-star-svg {
   margin-right: 0.3rem;
 }
-
+.repo-desc-readMore {
+  font-weight: 700;
+  /* font-size : 20px; */
+}
 .repo-description {
   word-wrap: break-word;
   text-align: left;
@@ -66,6 +69,19 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
+.project-guithub-button {
+  padding: 8px 25px;
+  border: none;
+  display: flex;
+  border-radius: 0.5rem;
+  align-self: flex-start;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.project-github-logo {
+  margin-right: 0.4rem;
+}
+
 .cards__item {
   display: flex;
   padding: 1rem;

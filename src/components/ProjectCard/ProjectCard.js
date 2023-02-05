@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectLanguages from '../projectLanguages/ProjectLanguages';
 import './ProjectCard.css';
 import { Fade } from 'react-awesome-reveal';
 import { style } from 'glamor';
 import PropTypes from 'prop-types';
-
+import { AiFillGithub } from 'react-icons/ai';
 export default function ProjectCard({ repo, theme }) {
+  const [readMoreState, setReadMoreState] = useState(200);
   function openRepoinNewTab(url) {
     var win = window.open(url, '_blank');
     win.focus();
@@ -26,8 +27,8 @@ export default function ProjectCard({ repo, theme }) {
     border: '1px solid rgba( 255, 255, 255, 0.18 )',
     transition: 'all 0.2s ease-in-out',
     ':hover': {
-      boxShadow: `${theme.imageDark} 0 2px 15px`,
-      transform: 'scale(1.5)'
+      boxShadow: `${theme.imageDark} 0 2px 15px`
+      // transform: 'scale(1.5)'
     }
   });
 
@@ -39,7 +40,7 @@ export default function ProjectCard({ repo, theme }) {
             className="project-card"
             {...styles}
             key={repo.id}
-            onClick={() => openRepoinNewTab(repo.url)}
+
             // style={{ backgroundColor: theme.projectCard }}
           >
             <div className="repo-card-bg">
@@ -57,11 +58,26 @@ export default function ProjectCard({ repo, theme }) {
                 </p>
               </div>
               <p className="repo-description" style={{ color: theme.text }}>
-                {repo.description}
+                {repo.description.substring(0, readMoreState)}
+                {repo.description.length > readMoreState ? '... ' : ' '}
+                {repo.description.length > 200 ? (
+                  <span
+                    className="repo-desc-readMore"
+                    onClick={() => setReadMoreState((prev) => (prev == 200 ? 1000 : 200))}>
+                    {readMoreState === 200 ? 'Read More' : 'Read Less'}
+                  </span>
+                ) : undefined}
               </p>
               <div className="repo-details">
                 <ProjectLanguages logos={repo.languages} />
               </div>
+              <button
+                className="project-guithub-button"
+                style={{ background: theme.projectCard, color: theme.text }}
+                onClick={() => openRepoinNewTab(repo.url)}>
+                <AiFillGithub className="project-github-logo" />
+                Guithub
+              </button>
             </div>
           </div>
         </Fade>
